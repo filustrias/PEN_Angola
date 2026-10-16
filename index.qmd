@@ -1,0 +1,3 @@
+# Apresentação {.unnumbered}
+
+Este livro reúne os documentos produzidos no estudo sobre a implementação do pacote de intervenções essenciais para doenças não transmissíveis da OMS (WHO PEN) em Angola.
