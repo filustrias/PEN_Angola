@@ -1,0 +1,180 @@
+# Panorama da literatura sobre o WHO PEN {#sec-panorama-pen}
+
+::: {.callout-note}
+Este capítulo é um mapa panorâmico, deliberadamente superficial em cada item, da produção científica e normativa sobre o *Package of Essential Noncommunicable Disease Interventions* (WHO PEN) e o seu derivado PEN-Plus. Serve para orientar o aprofundamento posterior. Última revisão: 16 de Outubro de 2026.
+:::
+
+## Histórico da iniciativa
+
+- **2008** — Consulta técnica em Genebra (1–2 de Dezembro) que dá origem ao pacote, coordenada por Shanthi Mendis na OMS ([documento original](https://courses.nextgenu.org/pluginfile.php/75186/mod_page/content/18/WHO%20prevention.pdf)).
+- **2010** — Primeira publicação do WHO PEN, introduzido como um conjunto priorizado de intervenções custo-efectivas, capazes de oferecer qualidade aceitável mesmo em contextos de recursos limitados ([WHO PEN 2020, IRIS](https://iris.who.int/server/api/core/bitstreams/b9f09202-a320-4c07-ba2c-afe0d1186339/content)). O foco inicial era estreito: protocolos clínicos simplificados para hipertensão e diabetes e prevenção de DCV com base no risco cardiovascular total ([overview of reviews, 2026](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13630711/)).
+- **2010 (Bulletin WHO)** — O ensaio que antecede e fundamenta o PEN: o cluster-RCT de Mendis e colaboradores na China e Nigéria com o pacote de gestão de risco cardiovascular ([Mendis et al., Bull WHO 2010](https://scielosp.org/article/bwho/2010.v88n6/412-419)).
+- **2013** — Publicação do conjunto de ferramentas de implementação (*Implementation tools*), com o instrumento de avaliação de capacidade das unidades, os protocolos 1–4 e a lista de medicamentos e tecnologias ([AFRO, PDF](https://www.afro.who.int/sites/default/files/2017-06/9789241506557_eng.pdf)).
+- **2016–2018** — Nasce o HEARTS (Global Hearts Initiative, OMS/CDC), desenhado para reforçar a implementação do WHO PEN na vertente cardiovascular ([HEARTS implementation guide](https://medbox.org/dl/5e148832db60a2044c2d5f3a); [HEARTS partner forum](https://pmc.ncbi.nlm.nih.gov/articles/PMC10405076/)).
+- **2017** — Actualização das intervenções como *best buys* e outras intervenções recomendadas ([WHO PEN portal](https://extranet.who.int/whoncdspenwp/Introduction)).
+- **2019** — Consulta regional AFRO que lança o PEN-Plus, estratégia para acelerar a implementação do WHO PEN e promover cuidados integrados para DNT crónicas graves em unidades de nível intermédio ([Ruderman et al., 2022](https://annalsofglobalhealth.org/articles/10.5334/aogh.3750)).
+- **2020** — Segunda grande edição do WHO PEN, alargada com módulos para hipertensão, diabetes, asma e DPOC, além de orientação sobre diagnóstico precoce de cancro, aconselhamento de estilo de vida, autocuidado e cuidados paliativos ([overview of reviews, 2026](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13630711/)).
+- **2022** — Resolução AFR/RC72/R2 adopta o PEN-Plus como estratégia regional ([versão em português](https://www.afro.who.int/sites/default/files/sessions/resolutions/AFR-RC72-R2%20PEN-plus%20%E2%80%93%20uma%20estrat%C3%A9gia%20regional%20para%20combater%20as%20doen%C3%A7as%20n%C3%A3o%20transmiss%C3%ADveis%20graves%20nas%20unidades%20de%20sa%C3%BAde%20de%20encaminhamento%20de%20pri.pdf)).
+- **2023–2026** — Fase de expansão PEN-Plus com financiamento Helmsley; relatório [*Scaling up PEN-Plus*](https://www.afro.who.int/publications/scaling-pen-plus-expanding-life-saving-care-severe-noncommunicable-diseases-africa) (Julho 2026) e [PEN-Plus Operations Manual](https://afro.who.int/publications/pen-plus-operations-manual) (Setembro 2026).
+
+## Onde foi implementado (por região OMS)
+
+**SEARO** — Butão (adoptou em 2010; PEN HEARTS em 2019), Nepal (escala nacional em cerca de 30 distritos), Mianmar (2 *townships* em 2012, 20 em 2017), Sri Lanka (*Healthy Lifestyle Centres* desde 2011, baseados no WHO/ISH), Indonésia, Índia (ensaios locais), Bangladesh, RPD Coreia (piloto em Pyongyang, 2014–15).
+
+**EURO** — Quirguistão, Moldávia (desde 2017), Tajiquistão (desde 2012–14, HEARTS em 2016–18), Uzbequistão, Arménia, Bielorrússia, Turquia. A rede de reuniões PEN da EURO ([Samarcanda 2016](https://who-sandbox.squiz.cloud/__data/assets/pdf_file/0005/335813/PEN-meeting-report-16.pdf); [Finlândia 2017](https://who-sandbox.squiz.cloud/__data/assets/pdf_file/0011/355790/PEN-report-2017-Finland_ENG.pdf)) produziu relatórios de experiência de país.
+
+**EMRO** — Irão (IraPEN, desde 2015, com escala nacional), Palestina (Gaza e Hebron), Jordânia.
+
+**WPRO** — Filipinas (PhilPEN, AO 2012-0029), Fiji (desde 2012), Pacífico insular, Mongólia, Camboja.
+
+**AFRO** — Muita adopção política, pouca investigação publicada sobre o PEN "clássico". Em 2020, dos 35 países da Região Africana com planos multissectoriais de DNT, apenas quatro (Benim, Eritreia, África do Sul e Togo) reportavam um pacote integrado implementado nacionalmente, e mais oito tinham implementação parcial ([Bull WHO 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7716106/)). Em 2022, o PEN estava a ser implementado em apenas 45% dos Estados-Membros da região ([CISGHE](https://centerforintegrationscience.org/who-afro-member-states-adopt-regional-strategy-to-implement-pen-plus/)). A energia de investigação em África migrou para o **PEN-Plus**: 20 países em diferentes fases de implementação, serviços em mais de 120 hospitais distritais e mais de 1750 profissionais formados; o Ruanda alcançou cobertura nacional e a Etiópia lançou um plano operacional nacional em 2026 ([AFRO, 2026](https://www.afro.who.int/countries/zambia/news/access-care-severe-chronic-diseases-africa-growing-new-report)). Moçambique está entre os países PEN-Plus com plano nacional em desenvolvimento ([NCDI Poverty Network](https://www.ncdipoverty.org/blog/unga-2026-reflections)).
+
+::: {.callout-important}
+**Angola não aparece em nenhuma publicação científica sobre PEN ou PEN-Plus encontrada nesta pesquisa.** Isto é, por si só, um dado relevante para o projecto: há uma lacuna de evidência a preencher.
+:::
+
+## Inventário de publicações por tipo
+
+### Revisões e sínteses de evidência
+
+1. **Overview of reviews** — Public Health Reviews, 2026. A síntese mais recente; categorizou as revisões incluídas em três áreas: capacidade das unidades sanitárias (n=4), estratégias de implementação (n=5), e resultados, barreiras e facilitadores (n=3). [Ligação](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13630711/)
+2. **Protocolo de revisão sistemática** — BMJ Open, 2026. A primeira revisão sistemática focada na implementação das intervenções multifacetadas do WHO PEN, em duas fases. [Ligação](https://pmc.ncbi.nlm.nih.gov/articles/PMC12927286/)
+3. **Revisão sistemática de barreiras e facilitadores** — 2024. 15 artigos seleccionados entre 404, publicados entre 2014–2020; barreiras e facilitadores em 2 temas e 7 subtemas. [Ligação](https://pubmed.ncbi.nlm.nih.gov/39544853/)
+4. **Scoping review sobre factores efectivos de implementação** — Research Square, 2020 (Irão). [Ligação](https://www.researchsquare.com/article/rs-31010/v1)
+5. **Scoping review sobre ciência da implementação nos pacotes técnicos da OMS** — Frontiers in Health Services, 2026. A maioria dos estudos examinava PEN ou PEN-Plus, seguidos de HEARTS e MPOWER. [Ligação](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13470048/)
+6. **Policy statement da World Hypertension League** — 2015. [Ligação](https://www.researchgate.net/publication/286446184)
+
+### Ensaios (aleatorizados, quasi-experimentais, híbridos)
+
+7. **Mendis et al., Bull WHO 2010** — ensaio fundacional. Cluster-RCT em duas regiões (China e Nigéria), 10 pares de unidades de CSP por região; 2397 doentes hipertensos; desfecho primário = variação da PAS aos 12 meses. Aos 12 meses mais de metade dos doentes continuava com hipertensão não controlada, mas apenas cerca de 2% precisaram de referência ao nível seguinte. [Ligação](https://scielosp.org/article/bwho/2010.v88n6/412-419)
+8. **TASKPEN, Zâmbia** — ensaio híbrido efectividade-implementação *stepped-wedge* em 12 unidades urbanas de Lusaka durante 30 meses, integrando o PEN nos serviços de VIH com *task-shifting*. Os autores sublinham que a implementação do WHO PEN é rara na África subsariana. [Protocolo](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11155136/) · [Registo](https://clinicaltrials.gov/study/NCT05005130)
+9. **WHO-PEN@Scale, Eswatini** — cluster-RCT nacional com dois braços de intervenção e um de controlo, comparando modelos de prestação de serviços para diabetes e hipertensão ao nível comunitário e domiciliar. [Ligação](https://link.springer.com/doi/10.1186/s13063-023-07096-4)
+10. **Nepal, Bhaktapur** — ensaio de implementação híbrido tipo II com *peer coaching* e auditoria clínica em 17 unidades primárias. [Ligação](https://nepmed.nhrc.gov.np/bitstreams/95290c69-eb69-4f8e-b52a-1f7c76102235/download)
+11. **Nepal, Aryal et al.** — Trials, 2020. Estudo híbrido tipo 2, de 12 meses, a nível populacional, aproveitando o *roll-out* do WHO-PEN em quatro municípios (população de 80 000). [Ligação](https://doaj.org/article/9cbf023c59554dc9a0f5c75e00f31394)
+12. **Índia, Himachal Pradesh** — protocolo de ensaio sobre intervenções breves de mudança de comportamento do PEN. [Ligação](https://www.sciencedirect.com/science/article/pii/S1551714422000015)
+13. **Filipinas (PhilPEN)** — ensaio económico-comportamental com encorajamento aleatório ao rastreio. [Ligação](https://www.socialscienceregistry.org/trials/2867)
+14. **PEN-Plus, Ruanda e Malawi** — RCT aberto de auto-monitorização da glicemia (Ruanda); protocolo de RCT de viabilidade de monitorização contínua de glicose (Malawi). [Lista de publicações PEN-Plus](https://www.afro.who.int/sites/default/files/countries/Misc/ICPPA%202024/PEN-Plus%20Publications.4-23-24.pdf)
+
+### Avaliações de efectividade e resultados clínicos (sem aleatorização)
+
+15. **RPD Coreia** — 2017. Entre 18 340 indivíduos com mais de 35 anos, a proporção com risco CV a 10 anos ≥20% caiu de 9,5% para 3,0% em 1 ano (resultado a ler com cautela). [Ligação](https://pubmed.ncbi.nlm.nih.gov/28857065/)
+16. **Butão 2014** (Wangchuk et al.) — avaliação de desempenho com melhoria no controlo da pressão arterial e da diabetes. [Contexto](https://www.who.int/about/accountability/results/who-results-report-2022-2023/country-story/2023/people-centered-model-supported-by-who-s-pen-package-improves-access-to-non-communicable-disease-healthcare-in-bhutan)
+17. **Butão 2022, PEN HEARTS** — Rural and Remote Health. Métodos mistos; distritos do grupo A com menor *gap* de tratamento e maior retenção em cuidados. [Ligação](https://www.rrh.org.au/journal/early_abstract/7298)
+18. **Irão, IraPEN** — efectividade em áreas-piloto (BMC Public Health, 2025): 160 223 rastreados, 25 764 seguidos ≥1 ano; homens com risco >10% de 7,5% para 5,3%, mulheres de 6,1% para 4,7%; efectividade modesta. [Ligação](https://pubmed.ncbi.nlm.nih.gov/39901219/) Avaliação do *scale-up* nacional (BMC Cardiovasc Disord, 2026): 610 unidades, 1,8 milhões de adultos ≥30 anos, cobertura de rastreio de 30%; 80% dos hipertensos medicados e 74% controlados. [Ligação](https://www.wrh.ox.ac.uk/publication/2427342)
+19. **Quirguistão** — Kontsevaya & Farrington, WHO EURO 2017. PEN vs não-PEN em Bishkek; sem evidência clara de impacto real dos protocolos PEN nos CSP. [Ligação](https://www.knowledge-action-portal.com/en/node/4140)
+20. **Tajiquistão** — BMC Health Services Research, 2021. Controlo de PA melhorado ao nível dos CSP em 12 meses com ferramentas da OMS. [Protocolo, F1000](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7479501/) · [Nota WHO/Europe](https://www.who.int/europe/news/item/09-06-2021-who-study-points-to-interventions-for-improving-cardiovascular-health-in-tajikistan)
+21. **Palestina, Hebron** — 2025/26. Transversal comparativo, 440 doentes: PAS −2,93 mmHg e HbA1c −0,42, diferença absoluta pequena. [Ligação](https://www.synapsesocial.com/papers/69e07d8f2f7e8953b7cbe80c) Gaza (AlHelo, 2019) — transversal sobre redução de risco CV (citado na [revisão de 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11557760/)).
+22. **Mianmar** — Aye et al., 2020. Métodos mistos, sem braço de comparação; alta perda de seguimento, mau registo do score de risco CV e falta de medicamentos e equipamento. [Ligação](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7028297/)
+23. **PEN-Plus Malawi** — Annals of Global Health, 2022. A clínica PEN-Plus melhorou a inscrição de doentes, a qualidade dos cuidados e o acesso a medicamentos e laboratório. [Ligação](https://annalsofglobalhealth.org/articles/10.5334/aogh.3750)
+24. **PEN-Plus Libéria** — PLOS Global Public Health, 2025. Coorte prospectiva de educação para autogestão em diabetes tipo 1. [Ligação](https://www.ncdipoverty.org/blog/diabetes-self-management-liberia)
+
+### Estudos de implementação: fidelidade, barreiras, qualitativos, mistos
+
+25. **Nepal, fidelidade durante *scale-up*** — Implementation Science Communications, 2026. 47 prestadores e 33 doentes; fidelidade frequentemente limitada a poucas acções diagnósticas e terapêuticas. [Ligação](https://link.springer.com/article/10.1186/s43058-026-00922-1)
+26. **Nepal, avaliação nacional NHRC** — 69% das unidades com ≥1 profissional formado em PEN, mas só 18% com a *guideline* disponível. [Ligação](https://opac.nhrc.gov.np/bib/3504)
+27. **Nepal, barreiras à utilização pelos doentes** — BMC Health Services Research, 2025. Qualitativo em 14 distritos. [Ligação](https://pmc.ncbi.nlm.nih.gov/articles/PMC11601846)
+28. **Moldávia, qualitativo** — BMC Primary Care, 2026. Uma das primeiras análises qualitativas da implementação do PEN num PRMB da Região Europeia, com modelo lógico ancorado na prática. [Ligação](https://link.springer.com/article/10.1186/s12875-026-03252-2)
+29. **Moldávia, viabilidade** — Laatikainen et al., 2020 (citado na [revisão de 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11557760/)).
+30. **Quirguistão** — Collins et al., 2017 (qualitativo) e avaliação de serviço mista ([WHO EURO 2017](http://www.euro.who.int/__data/assets/pdf_file/0011/355961/PEN-implementation.pdf)).
+31. **Fiji** — PLOS Global Public Health, 2025. Adopção e aceitabilidade; programa bem recebido pelos profissionais formalmente formados. [Ligação](https://journals.plos.org/globalpublichealth/article?id=10.1371%2Fjournal.pgph.0004344)
+32. **Nepal, Agrawal 2018** — adesão ao protocolo PEN num hospital distrital rural. [Ligação](https://doaj.org/article/364d492c30184e2bbb8301a12bac65f3)
+33. **Ruanda, PEN-Plus** — resultados de implementação da descentralização nacional para hospitais distritais ([lista Harvard GHSM](https://ghsm.hms.harvard.edu/programs/noncommunicable-disease/publications)).
+
+### Avaliações de capacidade e *readiness* das unidades
+
+34. Nepal (Aryal, 49 unidades em Ilam) — [ligação](https://elibrary.nhrc.gov.np/bitstream/20.500.14356/1549/1/1100-Manuscript-5281-1-10-20180703.pdf); Gana (capacidade para piloto PEN); Filipinas — [Metro Manila](https://actamedicaphilippina.upm.edu.ph/index.php/acta/article/view/13653) e [Los Baños](https://jhes.uplb.edu.ph/?p=829), prontidão parcial; Quénia — [APHRC 2022](https://aphrc.org/wp-content/uploads/2022/12/Facility-assessment-report-D2-1.pdf), questionário adaptado da ferramenta WHO-PEN; Etiópia — [SARA 2016/2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10890768/) e [Sidama 2022](https://peerj.com/articles/13797); Bull WHO 2018, *Gaps in capacity in primary care in low-resource settings* (citado na [scoping review de 2020](https://www.researchsquare.com/article/rs-31010/v1)).
+
+### Avaliações económicas
+
+35. **Butão** — Health Policy & Planning, 2014 (HITAP). O rastreio oportunista actual representa bom valor face a "não rastrear"; alargar para rastreio universal seria ainda mais custo-efectivo. [Ligação](https://pubmed.ncbi.nlm.nih.gov/25296642)
+36. **Indonésia** — HITAP/F1000, 2017. A integração de rastreio e tratamento de diabetes e hipertensão nos CSP gera poupanças para o governo e para a sociedade. [Ligação](https://f1000research.com/documents/6-205)
+37. **Irão** — Frontiers in Public Health, 2023. ICER de $804, $551 e −$44 por QALY para risco CV moderado, alto e muito alto em não diabéticos. [Ligação](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1075277/full)
+38. **Quirguistão** — custos no relatório EURO 2017 (item 19).
+39. **PEN-Plus** — custos de cuidados integrados em hospitais distritais rurais no Ruanda ([lista AFRO](https://www.afro.who.int/sites/default/files/countries/Misc/ICPPA%202024/PEN-Plus%20Publications.4-23-24.pdf)).
+
+### Metodológicos e ferramentas
+
+40. **whoishRisk** (pacote R) — implementação em R das tabelas WHO/ISH para todas as sub-regiões epidemiológicas, criada por necessidade de ferramenta *open-source* para investigação operacional do PEN. Interesse directo para o fluxograma interactivo deste projecto. [Ligação](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5345772/)
+41. **Validação de scores** — Irão: 26,5% classificados como alto risco pelo Framingham contra 6,1% pelo IraPEN; concordância fraca. [Ligação](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080335/)
+42. **Medição de procura PEN-Plus** — BMJ Open, 2024. Metodologia para estimar necessidade de serviços para DNT graves em África. [Ligação](https://bmjopen.bmj.com/content/14/1/e074182)
+
+### Documentos normativos e literatura cinzenta (OMS)
+
+43. [WHO PEN 2010](https://courses.nextgenu.org/pluginfile.php/75186/mod_page/content/18/WHO%20prevention.pdf); [Implementation Tools 2013](https://www.afro.who.int/sites/default/files/2017-06/9789241506557_eng.pdf); [WHO PEN 2020](https://iris.who.int/server/api/core/bitstreams/b9f09202-a320-4c07-ba2c-afe0d1186339/content); [HEARTS](https://medbox.org/dl/5e148832db60a2044c2d5f3a) e HEARTS-D ([WHO/Europe](https://www.who.int/europe/teams/ncd-management/implementation-of-who-hearts-and-pen)); relatórios das reuniões PEN da EURO ([2016](https://who-sandbox.squiz.cloud/__data/assets/pdf_file/0005/335813/PEN-meeting-report-16.pdf), [2017](https://who-sandbox.squiz.cloud/__data/assets/pdf_file/0011/355790/PEN-report-2017-Finland_ENG.pdf)); AFR/RC67/12 (quadro regional de integração de DNT nos CSP, 2017); [AFR/RC72/R2 PEN-Plus, 2022](https://www.afro.who.int/sites/default/files/sessions/resolutions/AFR-RC72-R2%20PEN-plus%20%E2%80%93%20uma%20estrat%C3%A9gia%20regional%20para%20combater%20as%20doen%C3%A7as%20n%C3%A3o%20transmiss%C3%ADveis%20graves%20nas%20unidades%20de%20sa%C3%BAde%20de%20encaminhamento%20de%20pri.pdf); [relatório de progresso AFR/RC75, 2025](https://www.afro.who.int/sites/default/files/2025-07/AFR-RC75-INF-DOC-6%20Relat%C3%B3rio%20de%20progresso%20sobre%20o%20quadro%20regional%20para%20a%20integra%C3%A7%C3%A3o%20de%20servi%C3%A7os%20essenciais.pdf); [*Scaling up PEN-Plus*, 2026](https://www.afro.who.int/publications/scaling-pen-plus-expanding-life-saving-care-severe-noncommunicable-diseases-africa); [PEN-Plus Operations Manual, 2026](https://afro.who.int/publications/pen-plus-operations-manual).
+
+## O que o mapa diz
+
+**A base de evidência de efectividade do PEN é fina e heterogénea.** Um cluster-RCT de 2010 que antecede o pacote, muitos estudos pré-pós sem controlo, e os poucos estudos controlados (Quirguistão, Hebron) mostram efeitos nulos ou modestos. Os ensaios rigorosos (TASKPEN, Eswatini, híbridos do Nepal) são recentes e ainda em curso ou acabados de publicar.
+
+**A evidência de implementação é mais rica do que a de efectividade.** É aqui que RE-AIM/PRISM e CFIR entram. Vários estudos usam já linguagem de implementação (fidelidade, aceitabilidade, adopção), mas quase nenhum usa explicitamente estes enquadramentos; a [scoping review de 2026](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13470048/) é o ponto de partida para confirmar isto.
+
+**Em África, a investigação deslocou-se para o PEN-Plus** (hospitais distritais, DNT graves). O PEN "clássico" nos CSP africanos está pouco documentado, e Angola não está documentada de todo. Isto cria uma oportunidade de publicação para o projecto.
+
+**PEN e HEARTS convivem de forma confusa na literatura.** O Butão chama-lhe "PEN HEARTS", o Tajiquistão "PEN/HEARTS". O projecto precisa de uma posição clara sobre qual é o referencial clínico de base.
+
+## Referências
+
+1. World Health Organization. *WHO package of essential noncommunicable (PEN) disease interventions for primary health care*. Geneva: WHO; 2020. <https://iris.who.int/server/api/core/bitstreams/b9f09202-a320-4c07-ba2c-afe0d1186339/content>
+2. World Health Organization. *Package of essential noncommunicable (PEN) disease interventions for primary health care in low-resource settings*. Geneva: WHO; 2010. <https://courses.nextgenu.org/pluginfile.php/75186/mod_page/content/18/WHO%20prevention.pdf>
+3. World Health Organization. *Implementation tools: Package of Essential Noncommunicable (PEN) disease interventions for primary health care in low-resource settings*. Geneva: WHO; 2013. <https://www.afro.who.int/sites/default/files/2017-06/9789241506557_eng.pdf>
+4. World Health Organization. *HEARTS: Technical package for cardiovascular disease management in primary health care — implementation guide*. <https://medbox.org/dl/5e148832db60a2044c2d5f3a>
+5. Implementation of the World Health Organization's Package of Essential Noncommunicable Disease Interventions: an overview of reviews. *Public Health Reviews*. 2026. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13630711/>
+6. Evidence on implementing WHO Package of Essential Non-communicable (PEN) Diseases Interventions: a systematic review protocol. *BMJ Open*. 2026. <https://pmc.ncbi.nlm.nih.gov/articles/PMC12927286/>
+7. Implementation of the Package of Essential Non-Communicable (PEN) Disease Interventions in Low-Resource Settings: A Systematic Review. 2024. <https://pubmed.ncbi.nlm.nih.gov/39544853/>
+8. Investigating the Effective Factors on Implementation of WHO PEN for Primary Health Care in Low Resource Settings: A Scoping review. *Research Square*. 2020. <https://www.researchsquare.com/article/rs-31010/v1>
+9. Using implementation science for WHO noncommunicable disease technical packages in low-and middle-income countries: a scoping review. *Frontiers in Health Services*. 2026. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13470048/>
+10. World Hypertension League. Implementation of WHO PEN for Primary Health Care in Low-Resource Settings: A Policy Statement. 2015. <https://www.researchgate.net/publication/286446184>
+11. Mendis S, Johnston SC, Fan W, et al. Cardiovascular risk management and its impact on hypertension control in primary care in low-resource settings: a cluster-randomized trial. *Bull World Health Organ*. 2010;88(6):412–419. <https://scielosp.org/article/bwho/2010.v88n6/412-419>
+12. Evaluating a multifaceted implementation strategy and package of evidence-based interventions based on WHO PEN for people living with HIV and cardiometabolic conditions in Lusaka, Zambia: protocol for the TASKPEN hybrid effectiveness-implementation stepped wedge cluster randomized trial. *Implement Sci Commun*. 2024. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11155136/>
+13. TASKPEN. ClinicalTrials.gov NCT05005130. <https://clinicaltrials.gov/study/NCT05005130>
+14. WHO-PEN@Scale: a nationwide cluster-randomized controlled trial in Eswatini. *Trials*. 2023. <https://link.springer.com/doi/10.1186/s13063-023-07096-4>
+15. Reinforcement of Peer-Coaching and Clinical Audit to Improve Implementation of PEN in Nepal: pilot implementation study. *Nepal Health Research Council*. <https://nepmed.nhrc.gov.np/bitstreams/95290c69-eb69-4f8e-b52a-1f7c76102235/download>
+16. Aryal A, et al. An integrated intervention for chronic care management in rural Nepal: protocol of a type 2 hybrid effectiveness-implementation study. *Trials*. 2020. <https://doaj.org/article/9cbf023c59554dc9a0f5c75e00f31394>
+17. Effect of brief interventions to promote behavior change on clinical outcomes of selected NCDs: WHO PEN interventions for primary health care settings (Himachal Pradesh). *Contemp Clin Trials Commun*. 2022. <https://www.sciencedirect.com/science/article/pii/S1551714422000015>
+18. Evaluating the Impact of Risk Information and Screening on Cardiovascular Disease Prevention in the Philippines (PhilPEN). AEA RCT Registry. <https://www.socialscienceregistry.org/trials/2867>
+19. Package of essential noncommunicable disease (PEN) interventions in primary health-care settings in the Democratic People's Republic of Korea: a feasibility study. 2017. <https://pubmed.ncbi.nlm.nih.gov/28857065/>
+20. Tenzin K, Sabin L, Wangchuk, et al. Early impact of the PEN HEARTS package to manage noncommunicable diseases in Bhutan: a mixed-methods evaluation. *Rural Remote Health*. 2022. <https://www.rrh.org.au/journal/early_abstract/7298>
+21. WHO. People-centered model supported by WHO's PEN Package improves access to NCD healthcare in Bhutan. 2023. <https://www.who.int/about/accountability/results/who-results-report-2022-2023/country-story/2023/people-centered-model-supported-by-who-s-pen-package-improves-access-to-non-communicable-disease-healthcare-in-bhutan>
+22. Evaluation of the effectiveness of the IraPEN program in reducing cardiovascular disease risk in pilot areas. *BMC Public Health*. 2025. <https://pubmed.ncbi.nlm.nih.gov/39901219/>
+23. Khalili D, et al. National program for cardiovascular disease and hypertension in primary healthcare: WHO-PEN program initial scale-up in Iran (IraPEN). *BMC Cardiovasc Disord*. 2026. <https://www.wrh.ox.ac.uk/publication/2427342>
+24. Jamshidi A, Daroudi R, Aas E, Khalili D. A cost-effectiveness analysis of risk-based intervention for prevention of cardiovascular diseases in IraPEN program: A modeling study. *Front Public Health*. 2023. <https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1075277/full>
+25. Agreement between Framingham, IraPEN and non-laboratory WHO-EMR risk score calculators for cardiovascular risk prediction in a large Iranian population. *J Cardiovasc Thorac Res*. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080335/>
+26. Kontsevaya A, Farrington J. Implementation of a package of essential noncommunicable (PEN) disease interventions in Kyrgyzstan: evaluation of effects and costs in Bishkek after one year. WHO Regional Office for Europe; 2017. <https://www.knowledge-action-portal.com/en/node/4140>
+27. WHO Regional Office for Europe. Improving the implementation of PEN in Kyrgyzstan: mixed methods service evaluation of pilot health centres. 2017. <http://www.euro.who.int/__data/assets/pdf_file/0011/355961/PEN-implementation.pdf>
+28. Evaluation and pilot implementation of essential interventions for the management of hypertension and prevention of cardiovascular diseases in primary health care in the Republic of Tajikistan. *F1000Research*. 2019. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7479501/>
+29. WHO/Europe. WHO study points to interventions for improving cardiovascular health in Tajikistan. 2021. <https://www.who.int/europe/news/item/09-06-2021-who-study-points-to-interventions-for-improving-cardiovascular-health-in-tajikistan>
+30. Mesk et al. PEN implementation and clinical outcomes in Hebron, Palestine. 2025/26. <https://www.synapsesocial.com/papers/69e07d8f2f7e8953b7cbe80c>
+31. Aye LL, et al. Experiences from the pilot implementation of PEN in Myanmar, 2017-18: A mixed methods study. 2020. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7028297/>
+32. Ruderman T, et al. Training Mid-Level Providers to Treat Severe Non-Communicable Diseases in Neno, Malawi through PEN-Plus Strategies. *Ann Glob Health*. 2022. <https://annalsofglobalhealth.org/articles/10.5334/aogh.3750>
+33. NCDI Poverty Network. Type 1 Diabetes Study in Liberia Shows Value of Patient Education and Peer Support. 2025. <https://www.ncdipoverty.org/blog/diabetes-self-management-liberia>
+34. Implementation fidelity to WHO PEN during scale-up in Nepal's primary healthcare system: a mixed methods study. *Implement Sci Commun*. 2026. <https://link.springer.com/article/10.1186/s43058-026-00922-1>
+35. Nepal Health Research Council. Integration of NCD screening, management and care continuity through primary health care using PEN program in Nepal: assessing practices and barriers. <https://opac.nhrc.gov.np/bib/3504>
+36. Barriers and facilitators to patient utilization of NCD services in primary healthcare facilities in Nepal: a qualitative study. *BMC Health Serv Res*. 2025. <https://pmc.ncbi.nlm.nih.gov/articles/PMC11601846>
+37. Implementing WHO PEN in primary health in Moldova: a qualitative evaluation of barriers, enablers, and lessons for scale-up. *BMC Primary Care*. 2026. <https://link.springer.com/article/10.1186/s12875-026-03252-2>
+38. Understanding implementation, adoption, and acceptability of WHO PEN in Fiji: Evidence for scale-up. *PLOS Glob Public Health*. 2025. <https://journals.plos.org/globalpublichealth/article?id=10.1371%2Fjournal.pgph.0004344>
+39. Agrawal P, et al. Diabetic care delivery with PEN protocol in rural Nepal: A district hospital-based study. *Int J Noncommun Dis*. 2018. <https://doaj.org/article/364d492c30184e2bbb8301a12bac65f3>
+40. Harvard GHSM. Program in Global NCDs and Social Change — Publications. <https://ghsm.hms.harvard.edu/programs/noncommunicable-disease/publications>
+41. Aryal BK, et al. Assessment of Health Facilities for Implementation of NCD Package. *J Nepal Health Res Counc*. 2018. <https://elibrary.nhrc.gov.np/bitstream/20.500.14356/1549/1/1100-Manuscript-5281-1-10-20180703.pdf>
+42. Facility Assessment for the Implementation of PhilPEN in Primary Health Care Centers in Metro Manila. *Acta Med Philipp*. <https://actamedicaphilippina.upm.edu.ph/index.php/acta/article/view/13653>
+43. Preparedness of Health Care Units in Adopting PhilPEN in Los Baños, Laguna. *J Hum Ecol Sustain*. <https://jhes.uplb.edu.ph/?p=829>
+44. APHRC. Assessing the readiness of health facilities to provide NCD services in Kenya — Facility Assessment Report. 2022. <https://aphrc.org/wp-content/uploads/2022/12/Facility-assessment-report-D2-1.pdf>
+45. Health system's availability and readiness of health facilities for chronic NCDs: Evidence from the Ethiopian national surveys. 2024. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10890768/>
+46. Readiness of the primary health care units for the management of hypertension and type II diabetes in Sidama, Ethiopia. *PeerJ*. 2022. <https://peerj.com/articles/13797>
+47. Dukpa W, et al. An economic evaluation based on a pilot of a Package of Essential Non-communicable disease interventions in Bhutan. *Health Policy Plan*. 2014. <https://pubmed.ncbi.nlm.nih.gov/25296642>
+48. Rattanavipapong W, et al. Policy Brief: Economic Evaluation of the Implementation of WHO PEN in Indonesia. *F1000Research*. 2017. <https://f1000research.com/documents/6-205>
+49. whoishRisk — an R package to calculate WHO/ISH cardiovascular risk scores for all epidemiological subregions of the world. *F1000Research*. 2017. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5345772/>
+50. Addressing Severe Chronic NCDs Across Africa: Measuring Demand for PEN-Plus. *BMJ Open*. 2024. <https://bmjopen.bmj.com/content/14/1/e074182>
+51. Addressing barriers to primary health-care services for noncommunicable diseases in the African Region. *Bull World Health Organ*. 2020. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7716106/>
+52. Center for Integration Science in Global Health Equity. WHO/AFRO Member States Adopt Regional Strategy to Implement PEN-Plus. 2022. <https://centerforintegrationscience.org/who-afro-member-states-adopt-regional-strategy-to-implement-pen-plus/>
+53. WHO AFRO. AFR/RC72/R2 — PEN-Plus: uma estratégia regional para combater as doenças não transmissíveis graves nas unidades de saúde de referência de primeiro nível. 2022. <https://www.afro.who.int/sites/default/files/sessions/resolutions/AFR-RC72-R2%20PEN-plus%20%E2%80%93%20uma%20estrat%C3%A9gia%20regional%20para%20combater%20as%20doen%C3%A7as%20n%C3%A3o%20transmiss%C3%ADveis%20graves%20nas%20unidades%20de%20sa%C3%BAde%20de%20encaminhamento%20de%20pri.pdf>
+54. WHO AFRO. AFR/RC75/INF.DOC/6 — Relatório de progresso sobre o quadro regional para a integração de serviços essenciais para as DNT nos CSP. 2025. <https://www.afro.who.int/sites/default/files/2025-07/AFR-RC75-INF-DOC-6%20Relat%C3%B3rio%20de%20progresso%20sobre%20o%20quadro%20regional%20para%20a%20integra%C3%A7%C3%A3o%20de%20servi%C3%A7os%20essenciais.pdf>
+55. WHO AFRO. Scaling up PEN-Plus: expanding life-saving care for severe noncommunicable diseases in Africa. 2026. <https://www.afro.who.int/publications/scaling-pen-plus-expanding-life-saving-care-severe-noncommunicable-diseases-africa>
+56. WHO AFRO. Access to care for severe chronic diseases in Africa growing: new report. 2026. <https://www.afro.who.int/countries/zambia/news/access-care-severe-chronic-diseases-africa-growing-new-report>
+57. WHO AFRO. PEN-Plus operations manual. 2026. <https://afro.who.int/publications/pen-plus-operations-manual>
+58. WHO AFRO. Selected PEN-Plus Publications (ICPPA 2024). <https://www.afro.who.int/sites/default/files/countries/Misc/ICPPA%202024/PEN-Plus%20Publications.4-23-24.pdf>
+59. NCDI Poverty Network. A Year of Acceleration: Reflections on Steps Forward for NCD Care. 2026. <https://www.ncdipoverty.org/blog/unga-2026-reflections>
+60. WHO Regional Office for Europe. PEN meeting report — Samarkand, 2016. <https://who-sandbox.squiz.cloud/__data/assets/pdf_file/0005/335813/PEN-meeting-report-16.pdf>
+61. WHO Regional Office for Europe. PEN meeting report — Finland, 2017. <https://who-sandbox.squiz.cloud/__data/assets/pdf_file/0011/355790/PEN-report-2017-Finland_ENG.pdf>
+62. WHO/Europe. Implementation of WHO HEARTS and PEN. <https://www.who.int/europe/teams/ncd-management/implementation-of-who-hearts-and-pen>
+63. The HEARTS partner forum — supporting implementation of HEARTS to treat and control hypertension. 2023. <https://pmc.ncbi.nlm.nih.gov/articles/PMC10405076/>
+64. WHO. WHO PEN portal — Introduction. <https://extranet.who.int/whoncdspenwp/Introduction>

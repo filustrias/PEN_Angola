@@ -1,0 +1,280 @@
+---
+title: "Lacunas de cuidado: da guia clínica ao indicador"
+subtitle: "Implementação do PEN-OMS em Angola — piloto de Luanda e Huíla"
+author: "Adelson Guaraci Jantsch"
+date: 2026-10-16
+lang: pt
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    embed-resources: true
+  docx:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+    documentclass: article
+    geometry: margin=2.5cm
+bibliography: false
+---
+
+# Porquê construir protocolos a partir das lacunas de cuidado
+
+Um protocolo clínico só muda a prática quando responde, para cada decisão, a três perguntas na mesma frase: o que deve ser feito, a quem, e como saberemos se foi feito. A terceira pergunta é a que normalmente falta. Os manuais de HTA e de diabetes que o PEN Angola já produziu dizem o que fazer; o que ainda não dizem é onde, hoje, as pessoas deixam de receber esse cuidado — e é exactamente isso que um indicador deveria medir.
+
+A proposta deste documento é inverter a ordem habitual. Em vez de escrever o protocolo e, no fim, escolher indicadores «mensuráveis», começa-se por listar as lacunas de cuidado: os pontos do percurso da pessoa com HTA ou DM2 em que a evidência justifica uma acção e essa acção não acontece. Cada lacuna identificada gera, de uma só vez, três produtos coerentes entre si:
+
+1. uma recomendação do protocolo (a acção que fecha a lacuna, com o seu nível de evidência e grau de recomendação);
+2. um campo na ficha de registo (sem registo da acção, a lacuna é invisível);
+3. um indicador (numerador = elegíveis com a acção documentada; denominador = elegíveis; lacuna = 1 − indicador).
+
+O ganho não é só de coerência. A magnitude da lacuna, multiplicada pela redução do risco absoluto da intervenção, estima quantos eventos (AVC, enfartes, amputações, cegueira) seriam evitáveis se a lacuna fosse fechada. Isso permite ordenar as recomendações do protocolo pelo seu rendimento em saúde, e não pela facilidade de as medir.
+
+A dimensão do problema é conhecida. Nos EUA, um estudo de referência mostrou que os adultos recebiam apenas cerca de 55% dos cuidados recomendados (McGlynn et al., 2003). Em 44 países de baixo e médio rendimento, entre as pessoas com hipertensão, 73,6% tinham alguma vez medido a tensão arterial, 39,2% tinham diagnóstico, 29,9% estavam em tratamento e apenas 10,3% estavam controladas (Geldsetzer et al., *Lancet* 2019). Esta cascata é, na prática, uma sequência de lacunas de cuidado encadeadas — e o piloto de Luanda e Huíla vai encontrar uma cascata semelhante nas suas quatro unidades.
+
+# O que é uma lacuna de cuidado
+
+Lacuna de cuidado (*care gap*) é a diferença entre o cuidado que a melhor evidência recomenda para uma pessoa elegível e o cuidado que está documentado como recebido, num período definido. A definição tem quatro peças, e todas contam: evidência (não opinião), elegibilidade (não toda a gente), documentação (o que não está registado conta como não feito) e período (uma HbA1c de há três anos não fecha a lacuna de hoje).
+
+A mesma lacuna pode ser lida em três níveis, e o piloto precisa dos três:
+
+| Nível | O que é | Para que serve | Exemplo (HTA) |
+|---|---|---|---|
+| Pessoa | Lacuna aberta: esta pessoa é elegível e não tem a acção documentada | Lista de pendências por doente → busca activa, lembretes, agenda | A Sra. X tem HTA, PA 162/98 na última consulta, sem intensificação do tratamento |
+| Unidade / população | Proporção de elegíveis com a lacuna aberta (= 1 − indicador) | Painel trimestral da unidade; comparação entre unidades | 58% das pessoas com HTA em tratamento há mais de 3 meses não estão controladas |
+| Sistema | Lacuna estrutural: falta o insumo que torna a acção possível | Supervisão, logística, orçamento | Ruptura de stock de amlodipina durante 41 dias no trimestre |
+
+: Três níveis de leitura da mesma lacuna {#tbl-niveis}
+
+As lacunas organizam-se ao longo do percurso de cuidados, e cada etapa tem a sua pergunta própria. Um perdido de seguimento, por exemplo, não é uma lacuna de controlo: é uma lacuna de continuidade que torna as outras impossíveis de avaliar.
+
+| Tipo de lacuna | Pergunta | Quem é elegível (denominador típico) |
+|---|---|---|
+| Rastreio / detecção | Quem devia ter sido rastreado e não foi? | Utentes ≥18 anos que vieram à unidade (HTA); ≥40 anos (risco CV) |
+| Diagnóstico | Quem tem valores alterados e não tem diagnóstico confirmado e registado? | Pessoas com PA elevada numa consulta sem segunda medição em dia diferente |
+| Tratamento | Quem tem diagnóstico e não tem prescrição conforme o protocolo? | Pessoas com diagnóstico registado |
+| Monitorização | Quem está em tratamento e não tem o exame/avaliação devida no prazo? | Pessoas em tratamento (creatinina, HbA1c, exame do pé, retina) |
+| Controlo | Quem está em tratamento há tempo suficiente e não atingiu a meta? | Pessoas em tratamento há ≥3 meses |
+| Intensificação (inércia clínica) | Quem está fora da meta e não teve alteração do tratamento? | Pessoas não controladas na última consulta |
+| Continuidade | Quem não voltou? | Pessoas registadas sem consulta há 12 meses |
+| Estrutura | O que falta na unidade para que a acção seja possível? | Unidades (medicamentos, MPA, glicemia, HbA1c, pessoal formado) |
+
+: Tipos de lacuna ao longo do percurso de cuidados {#tbl-tipos}
+
+Quando uma lacuna aparece aberta, há três causas possíveis, e distingui-las é o que orienta a resposta (classificação usada pelos centros de saúde comunitários dos EUA, NACHC 2025):
+
+- **lacuna de dados**: a acção aconteceu, mas não foi registada ou o registo não chega ao sistema (resposta: ficha, formação em registo, circuito de informação);
+- **lacuna de oferta**: a unidade não ofereceu a acção (resposta: protocolo, insumos, organização do serviço);
+- **lacuna de adesão**: a acção foi oferecida e a pessoa não a fez (resposta: autocuidado, acessibilidade, busca activa).
+
+```{mermaid}
+%%| label: fig-cascata
+%%| fig-cap: "Cascata de cuidados da HTA: 4 degraus, 4 lacunas e a saída pela perda de seguimento. Percentagens: 44 países de baixo e médio rendimento (Geldsetzer et al., 2019)."
+flowchart LR
+    R["Rastreado<br/>PA medida<br/><i>74%</i>"]
+    D["Diagnosticado<br/>HTA confirmada<br/><i>39%</i>"]
+    T["Em tratamento<br/>prescrição do protocolo<br/><i>30%</i>"]
+    C["Controlado<br/>PA inferior a 140/90<br/><i>10%</i>"]
+    P["Perdido de seguimento<br/>estado desconhecido há 12 meses:<br/>sai da cascata sem se saber em que degrau estava"]
+    R -- "lacuna de diagnóstico" --> D
+    D -- "lacuna de tratamento" --> T
+    T -- "lacuna de controlo" --> C
+    D -. "lacuna de continuidade" .-> P
+    T -.-> P
+    C -.-> P
+    style C fill:#dbe9ff,stroke:#2f6fd6,stroke-width:2px
+    style P stroke:#c0392b,stroke-dasharray: 4 4
+```
+
+A cascata encadeia as lacunas: cada degrau só é avaliável para quem passou o anterior, e os perdidos de seguimento saem da cascata sem que se saiba em que degrau estavam.
+
+# Guias clínicas sumárias de uma página: exemplos da literatura
+
+Os melhores exemplos de guias de uma página partilham uma característica: cada caixa do algoritmo corresponde a uma decisão verificável, e por isso a um potencial indicador. Os exemplos abaixo foram escolhidos por serem usados em cuidados primários e por terem ensinamentos directos para o formato que o PEN Angola vai adoptar.
+
+| Exemplo | Quem publica | Formato | O que ensina para o PEN Angola |
+|---|---|---|---|
+| [Protocolos HEARTS de tratamento da HTA](https://apps.who.int/iris/bitstream/handle/10665/260421/WHO-NMH-NVI-18.2-eng.pdf) (OMS, 2018; cópia no projecto: WHO-NMH-NVI-18.2-eng.pdf) | OMS, com Resolve to Save Lives | Uma página por protocolo: limiar de início, fármaco, dose, passo seguinte a cada consulta, quando referenciar | É o modelo-base. Cada passo do protocolo («se PA ≥140/90 após 4 semanas, subir a dose») é uma lacuna de intensificação mensurável |
+| [Protocolos nacionais HEARTS](https://resolvetosavelives.org/priorities-strategies/blood-pressure-control/simple-protocols/page/2/) (Etiópia, Nigéria, Bangladesh, Filipinas, estados indianos) | Resolve to Save Lives | Uma página, adaptada à lista nacional de medicamentos | Mostra como se adapta o protocolo genérico à lista de medicamentos essenciais do país — o passo que o TDR do consultor pede para Angola |
+| Protocolos PEN da OMS (versão portuguesa no projecto: PT - WHO-PEN_Final_version) e HEARTS-D (WHO-UCN-NCD-20.1) | OMS | Algoritmos de uma página por condição (risco CV, HTA, DM2) | A estrutura «avaliar → classificar → tratar → seguir → referenciar» é a mesma sequência de lacunas da secção anterior |
+| *Visual summaries* das guidelines NICE (ex.: [NG185 síndromes coronários](https://www.nice.org.uk/guidance/ng185/resources), [NG250 pneumonia](https://www.nice.org.uk/guidance/NG250/resources)) | NICE (Reino Unido) | Uma página em PDF por percurso clínico; vêm acompanhadas de um *baseline assessment tool* para auditoria | O par «resumo visual + ferramenta de auditoria» é a tradução institucional da ideia lacuna → indicador |
+| Infográficos das BMJ Rapid Recommendations | BMJ / MAGIC | Um ecrã: a recomendação, a força (GRADE) e os efeitos absolutos por 1000 doentes, com os intervalos de confiança | É o formato que melhor cumpre a exigência do projecto de mostrar risco absoluto, RRA e NNT no próprio resumo. Testes com médicos de família (BMJ Open 2023) mostraram boa aceitação, mas dificuldade em interpretar GRADE e recomendações fracas |
+| PEER Simplified Guidelines (ex.: lípidos 2023, dor crónica 2022, perturbação por opióides) | PEER / College of Family Physicians of Canada (*Canadian Family Physician*) | Guideline curta escrita por médicos de família, com decisão partilhada e benefícios absolutos | Modelo de «guideline de cuidados primários para cuidados primários»: poucas recomendações, cada uma com o benefício absoluto explícito |
+| [Hypertension Quality Standard](https://hqontario.ca/Portals/0/documents/evidence/quality-standards/qs-hypertension-technical-specifications-en.pdf) (2024) e Prediabetes and Type 2 Diabetes Quality Standard | Ontario Health (Canadá) | 7 *quality statements*; *placemat* de 2 páginas para o ponto de atendimento; especificações técnicas com indicadores por *statement* | É o exemplo mais próximo da lógica deste documento: cada afirmação de qualidade descreve uma lacuna conhecida e traz os seus indicadores com numerador e denominador |
+| Quick Guide to COPD in Primary Care | PCRS-UK | Livrete curto que resume a guideline NICE para cuidados primários | Mostra o limite: um resumo de várias páginas serve para formação; o de uma página serve para a consulta |
+
+: Exemplos de guias sumárias e o que ensinam {#tbl-exemplos}
+
+Três lições transversais:
+
+1. A página única tem de caber na consulta, não na formação. O que não cabe numa página vai para o manual completo (já existente) e para a plataforma online.
+2. Os formatos mais rigorosos (BMJ RapidRecs, PEER) colocam os efeitos absolutos ao lado da recomendação. O PEN Angola deve fazer o mesmo, e a plataforma pode apresentar a versão detalhada (NNT, NNH, nível de evidência, grau de recomendação) por trás de cada nó do fluxograma interactivo.
+3. Os formatos mais implementáveis (NICE, Ontario Health, HEARTS) vêm com a ferramenta de medição anexada. A guia de uma página e a ficha de indicadores devem nascer do mesmo ficheiro.
+
+Uma nota de prudência: existem muitos resumos de uma página de origem comercial ou de qualidade heterogénea. A selecção acima limita-se a produtos de agências públicas, sociedades profissionais e revistas com revisão por pares; para Angola, o ponto de partida obrigatório são os protocolos da OMS já no projecto.
+
+# Da recomendação ao indicador
+
+Uma recomendação bem escrita já contém o indicador. A regra de escrita é: verbo de acção + população elegível + prazo + critério de resultado. Se a frase não tiver estes quatro elementos, ou não é verificável ou não tem denominador.
+
+| Recomendação (como deve estar escrita no protocolo) | Lacuna que se abre | Indicador que resulta |
+|---|---|---|
+| Medir a PA a toda a pessoa ≥18 anos que vem à unidade, pelo menos uma vez por ano | Adultos atendidos sem PA registada nos últimos 12 meses | N: adultos ≥18 com PA registada / D: adultos ≥18 atendidos |
+| Iniciar tratamento farmacológico conforme o protocolo em toda a pessoa com HTA confirmada (PA ≥140/90 em 2 dias diferentes) | Pessoas com diagnóstico sem prescrição do protocolo | N: pessoas com HTA com prescrição conforme protocolo / D: pessoas com HTA registadas |
+| Rever a pessoa em 4 semanas e intensificar o tratamento se PA ≥140/90 | Pessoas não controladas sem alteração do tratamento na consulta seguinte | N: não controladas com tratamento intensificado / D: não controladas na consulta anterior |
+| Atingir PA <140/90 ao fim de 3 meses de tratamento | Pessoas em tratamento há ≥3 meses fora da meta | N: controladas na última consulta / D: em tratamento há ≥3 meses (perdidos contam no denominador) |
+| Reavaliar toda a pessoa registada pelo menos uma vez a cada 12 meses | Pessoas registadas sem consulta há 12 meses | N: sem consulta há ≥12 meses / D: registadas (este indicador mede a lacuna directamente) |
+
+: Da recomendação à lacuna e ao indicador {#tbl-rec}
+
+Quatro regras tornam o indicador honesto:
+
+1. O denominador é a população elegível, não a população que apareceu. Medir o controlo só em quem veio à consulta esconde a lacuna de continuidade. O documento orientador da OMS resolve isto ao contar os perdidos de seguimento como não controlados (ver secção seguinte).
+2. Cada indicador exige um campo na ficha. Se a ficha não tem campo para «data da última creatinina», o indicador de avaliação renal nasce morto. A lista de indicadores é, portanto, a especificação da ficha de registo.
+3. A janela temporal é explícita e igual em todas as unidades (último ano, último trimestre, últimos 3 meses de tratamento). Sem isso não há comparação.
+4. A lacuna é reportada como lacuna, não só como indicador. «42% controlados» e «58% com lacuna de controlo» são o mesmo número, mas o segundo diz à equipa quantas pessoas tem de ir buscar.
+
+## Pesar as lacunas pela evidência
+
+Nem todas as lacunas valem o mesmo. O que as ordena é o benefício absoluto da acção que as fecha, aplicado ao número de pessoas que estão na lacuna:
+
+$$
+\text{eventos evitáveis por ano} \approx N_{\text{lacuna}} \times \text{RRA}_{\text{anual}} = \frac{N_{\text{lacuna}}}{\text{NNT}_{\text{anual}}}
+$$
+
+A RRA não é uma propriedade da intervenção: é o produto da redução relativa do risco pelo risco basal da pessoa. Por isso o mesmo tratamento anti-hipertensivo fecha uma lacuna muito mais rentável numa pessoa com risco CV a 10 anos ≥20% do que numa pessoa de baixo risco — e é por isso que a avaliação de risco com as tabelas da OMS (pacote R já disponível no projecto) não é um passo burocrático: é o que permite ordenar as lacunas por rendimento.
+
+Exemplo ilustrativo, com números hipotéticos para uma unidade do piloto: 300 pessoas com HTA registadas, 58% com lacuna de controlo (174 pessoas). Se o risco basal médio de evento CV major for 3% ao ano e o controlo da PA reduzir esse risco em cerca de 25% em termos relativos, a RRA anual é de 0,75 pontos percentuais (NNT anual ≈ 133). Fechar a lacuna evitaria cerca de 1,3 eventos por ano nessa unidade; nas quatro unidades e em dois anos, perto de 10 eventos. Os números reais virão da linha de base do piloto, mas a aritmética é esta e deve constar da justificação de cada recomendação priorizada.
+
+O mesmo raciocínio aplica-se ao dano (NNH): uma lacuna de «intensificação» fechada com demasiado zelo em idosos frágeis troca AVC evitados por quedas e síncopes. A guia de uma página deve dizer onde parar, e o indicador de controlo deve ter a excepção registável (meta individualizada).
+
+# Os indicadores do documento orientador da OMS lidos como lacunas de cuidado
+
+O documento orientador é «Orientações para a monitorização de doenças não transmissíveis com base nas unidades de saúde: enquadramento, indicadores e aplicação» (OMS, 2023; ficheiro 9789240069237-por no projecto). Propõe 22 indicadores principais e 59 opcionais (p. 4), organizados em determinantes do programa, prestação de serviços e objectivos do programa (Fig. 1, p. 5–6). A OMS recomenda que cada país seleccione os indicadores de acordo com as prioridades e a capacidade, e fixe os valores de partida e as metas (p. 7–8). A leitura abaixo faz exactamente isso para o piloto, mas traduzindo cada indicador na lacuna que ele revela — ou esconde.
+
+## Hipertensão (p. 9–23)
+
+| Indicador OMS (página) | Lacuna que mede | Elegíveis (denominador) | Lacuna aberta quando | Tipo |
+|---|---|---|---|---|
+| C1 Disponibilidade de medicamentos essenciais para HTA (p. 10) | Estrutura: a unidade não pode tratar | Unidades de saúde | Houve ruptura de stock de qualquer das 4 classes no trimestre | Estrutura |
+| C2 Disponibilidade de medicamentos para DCV (p. 11) | Estrutura: aspirina, betabloqueador, estatina | Unidades | Ruptura no trimestre | Estrutura |
+| C3 Medidor de PA operacional (p. 12) | Estrutura: não se pode diagnosticar nem seguir | Unidades | Nenhum MPA validado e calibrado | Estrutura |
+| C4 Controlo da PA (p. 13) | Resultado: tratamento ineficaz ou não seguido | Pessoas com HTA em tratamento há ≥3 meses | PA ≥140/90 na última consulta, ou estado desconhecido (perdidos e referenciados contam como não controlados) | Controlo + continuidade |
+| O1 Avaliação do risco CV ≥40 anos (p. 15) | Processo: não se sabe quem beneficia mais | Pessoas ≥40 anos atendidas sem avaliação nos últimos 12 meses | Sem risco calculado com as tabelas da OMS | Monitorização |
+| O2 Rastreio da HTA ≥18 anos (p. 16) | Processo: rastreio oportunista omitido | Adultos ≥18 atendidos no período | Sem PA registada | Rastreio |
+| O3 Detecção em rastreio oportunista (p. 17) | Não é uma lacuna: é o rendimento do rastreio | Adultos rastreados | — (sinal epidemiológico; serve para calibrar expectativas) | — |
+| O4 Avaliação de DRC em recém-diagnosticados (p. 18) | Processo: comorbilidade não pesquisada | Recém-diagnosticados no ano | Sem albumina/creatinina ou TFGe no 1.º ano | Monitorização |
+| O5 Controlo da PA em recém-diagnosticados aos 3–6 meses (p. 19) | Resultado precoce: o protocolo funciona? | Coorte de recém-diagnosticados há 3–6 meses | PA ≥140/90 ou desconhecida | Controlo (coorte) |
+| O6 Pessoal formado (p. 20) | Estrutura: capacidade humana | Unidades | Pelo menos um profissional relevante sem formação | Estrutura |
+| O9 Casos sem acompanhamento (p. 23) | Continuidade: a pessoa saiu da cascata | Pessoas com HTA registadas | Estado desconhecido há 12 meses | Continuidade |
+
+: Indicadores de HTA da OMS (2023) lidos como lacunas {#tbl-hta}
+
+Observações críticas para o piloto:
+
+- C4 é o indicador que importa, e está bem desenhado: ao contar os perdidos como não controlados (p. 13), funde a lacuna de controlo com a de continuidade e impede o «controlo entre os que aparecem». Mas, por isso mesmo, não diz onde está a perda. Deve ser sempre apresentado ao lado de O9 e, dentro dos presentes, da proporção com PA registada (lacuna de dados).
+- O1 é opcional para a OMS, mas para este projecto é central: sem o risco CV não há como aplicar a aritmética da secção anterior nem decidir quem recebe estatina e aspirina. Propõe-se tratá-lo como principal no piloto.
+- Falta à lista da OMS, para a HTA, um indicador de tratamento conforme protocolo (existe para a diabetes, O1 p. 30) e um indicador de intensificação em quem está fora da meta. A inércia clínica é, na literatura de cuidados primários, a lacuna que mais explica o mau controlo; recomenda-se acrescentar os dois (definições na secção anterior).
+- C1–C3 e O6 têm as unidades como denominador. Com 4 unidades no piloto, uma percentagem só pode valer 0, 25, 50, 75 ou 100%. Para Luanda e Huíla é mais útil reportar por unidade: dias de ruptura por classe terapêutica no trimestre e número de profissionais formados / em serviço.
+
+## Diabetes (p. 24–44)
+
+| Indicador OMS (página) | Lacuna que mede | Elegíveis (denominador) | Lacuna aberta quando | Tipo |
+|---|---|---|---|---|
+| C1 Medicamentos essenciais (insulina, metformina, sulfonilureia) (p. 25) | Estrutura | Unidades | Ruptura no trimestre | Estrutura |
+| C2 Testagem de glicose plasmática (p. 26) | Estrutura: sem diagnóstico nem seguimento | Unidades | Sem capacidade de GP | Estrutura |
+| C3 Testagem de HbA1c (p. 27) | Estrutura: sem medida de controlo | Unidades | Sem capacidade de HbA1c (laboratório ou ponto de cuidado) | Estrutura |
+| C4 Controlo glicémico, HbA1c <8% (p. 28) | Resultado | Pessoas com DM em tratamento há ≥3 meses | HbA1c ≥8% ou desconhecida (perdidos contam como não controlados) | Controlo + continuidade |
+| O1 Tratamento farmacológico (p. 30) | Processo: diagnóstico sem tratamento | Pessoas com DM registadas | Sem agente hipoglicemiante no período | Tratamento |
+| O2 Estatina em pessoas com DM ≥40 anos (p. 31) | Processo: prevenção CV omitida | Pessoas com DM registadas (≥40 anos) | Sem estatina; desconhecidos contam como lacuna | Tratamento |
+| O4 Tratamento da HTA em pessoas com DM (p. 33) | Processo | Pessoas com DM e HTA | Sem tratamento anti-hipertensivo | Tratamento |
+| O5 Avaliação de DRC diabética (p. 34) | Monitorização | Pessoas com DM registadas | Sem albumina/creatinina ou TFGe | Monitorização |
+| O6 Avaliação do pé diabético (p. 35) | Monitorização | Pessoas com DM registadas | Pé não examinado na última consulta | Monitorização |
+| O7 Encaminhamento para rastreio de retinopatia (p. 36) | Monitorização / referência | Pessoas com DM com rastreio previsto | Sem encaminhamento documentado | Monitorização |
+| O8 Controlo glicémico aos 3–6 meses, HbA1c <7% ou GPJ <126 mg/dl (p. 37) | Resultado precoce; admite GPJ onde não há HbA1c | Coorte em tratamento há 3–6 meses | Fora da meta ou desconhecido | Controlo (coorte) |
+| O9–O11 DRC, amputação, cegueira (p. 38–40) | Desfecho tardio: a soma das lacunas anteriores | Pessoas com DM registadas | Evento no último ano | Desfecho |
+| O15 Casos sem acompanhamento (p. 44) | Continuidade | Pessoas com DM registadas | Estado desconhecido há 12 meses | Continuidade |
+
+: Indicadores de diabetes da OMS (2023) lidos como lacunas {#tbl-dm}
+
+Observações críticas para o piloto:
+
+- C4 depende de HbA1c, que as unidades do piloto provavelmente não terão. A OMS admite a GPJ como alternativa apenas em O8 (p. 37). Para o piloto, a opção honesta é adoptar O8 com GPJ como indicador de controlo e registar C3 como lacuna estrutural aberta, em vez de reportar um C4 vazio.
+- O2 (estatina) é a lacuna de maior rendimento por custo na diabetes: medicamento barato, benefício absoluto elevado em pessoas com risco CV alto, e depende apenas de prescrever. Na linha de base será provavelmente a lacuna mais aberta.
+- O6 (exame do pé) e O7 (retina) são lacunas de monitorização cujo fecho tem benefício absoluto comprovado (amputações e cegueira evitáveis, que são os desfechos O10 e O11). O exame do pé não precisa de nenhum insumo além de tempo e formação: é um bom indicador de fidelidade ao protocolo.
+- Os desfechos tardios (O9–O11) não servem para gerir o piloto em 12 meses; servem para a avaliação e para a narrativa de expansão. Devem ser recolhidos, mas não usados como metas de curto prazo.
+
+## Lista proposta para a linha de base do piloto
+
+Seguindo a recomendação da OMS de seleccionar poucos indicadores relevantes e exequíveis (p. 7), e lendo-os como lacunas, a lista mínima para a linha de base nas 4 unidades seria:
+
+1. Rastreio: HTA O2 (PA registada em adultos atendidos).
+2. Estratificação: HTA O1 (risco CV calculado em ≥40 anos), promovido a principal.
+3. Tratamento: DM O1 (hipoglicemiante), DM O2 (estatina), e os dois indicadores a acrescentar para a HTA (prescrição conforme protocolo; intensificação se fora da meta).
+4. Monitorização: HTA O4 e DM O5 (função renal), DM O6 (pé).
+5. Controlo: HTA O5 e DM O8 (coortes a 3–6 meses, com GPJ onde não houver HbA1c); HTA C4 e DM C4 anuais.
+6. Continuidade: HTA O9 e DM O15.
+7. Estrutura, reportada por unidade e não em percentagem: C1–C3 e O6 da HTA; C1–C3 da DM.
+
+Cada um destes indicadores define um campo obrigatório na ficha de registo de doentes crónicos que o TDR do consultor manda desenhar (Fase 3), e uma caixa no fluxograma de uma página.
+
+# Implicações para o piloto PEN Angola
+
+As lacunas de cuidado dão ao RE-AIM os seus números e ao CFIR as suas perguntas. Cada dimensão do RE-AIM corresponde a um tipo de lacuna, e cada lacuna aberta é um sintoma cujo diagnóstico se faz com os domínios do CFIR.
+
+| Dimensão RE-AIM | Lacuna que a mede | Indicadores (OMS 2023) | Pergunta CFIR quando a lacuna está aberta |
+|---|---|---|---|
+| Reach (alcance) | Rastreio e detecção: quem, entre os que precisam, entrou na cascata | HTA O2, O1, O3 | Características dos destinatários (*outer setting*): quem não vem à unidade e porquê? |
+| Effectiveness (efectividade) | Controlo e desfechos | HTA C4, O5; DM C4, O8; DM O9–O11 | Força da evidência e adaptabilidade da intervenção (*innovation domain*): o protocolo foi adaptado sem perder o que funciona? |
+| Adoption (adopção) | Unidades e profissionais que usam o protocolo | HTA O6; DM O12; indicadores de tratamento conforme protocolo | Clima de implementação, compatibilidade com o fluxo de trabalho, lideranças (*inner setting*) |
+| Implementation (implementação) | Fidelidade: as acções do protocolo acontecem para os elegíveis | HTA O4; DM O1, O2, O5, O6, O7; intensificação | Recursos disponíveis, acesso a conhecimento, processo (planeamento, formação, reflexão e avaliação) |
+| Maintenance (manutenção) | Continuidade dos doentes e dos insumos ao longo do tempo | HTA O9, DM O15; C1–C3 em série temporal | Sustentabilidade: financiamento, cadeia de abastecimento, rotatividade de pessoal |
+
+: Lacunas, RE-AIM e CFIR {#tbl-reaim}
+
+O PRISM acrescenta o contexto que explica a variação entre as quatro unidades: duas lacunas de controlo iguais em Luanda e na Huíla podem ter causas opostas (ruptura de stock numa, perda de seguimento por distância noutra). O painel de lacunas deve, por isso, ser lido unidade a unidade, com a classificação dados / oferta / adesão para cada lacuna aberta.
+
+## O que muda no desenho do piloto
+
+1. A linha de base (actividade «análise da situação dos centros de saúde», TDR) deve medir as lacunas, não só a prevalência: para cada unidade, a cascata (rastreados → diagnosticados → tratados → controlados) e as lacunas estruturais.
+2. Os manuais e fluxogramas a imprimir (actividade «desenho e impressão dos manuais e fluxogramas») devem ter a versão de uma página por condição, com cada caixa ligada a um campo da ficha e a um indicador.
+3. A ficha de registo de doentes crónicos (Fase 3 do TDR) é especificada a partir da lista de indicadores da secção anterior, campo a campo. Um campo sem indicador é peso morto; um indicador sem campo não existe.
+4. O fluxograma interactivo da plataforma online deve gerar, a partir dos dados da ficha, a lista de lacunas abertas por doente (para a equipa ir buscar) e o painel de lacunas por unidade (para a supervisão trimestral). É a mesma lógica de decisão, nos dois sentidos.
+5. A formação dos profissionais deve ensinar o protocolo como um conjunto de lacunas a fechar, com o benefício absoluto de cada uma — e não como uma lista de regras.
+6. A avaliação intercalar e a proposta de expansão devem apresentar a variação das lacunas ao longo do tempo (RE-AIM) e a explicação contextual (PRISM/CFIR) de onde o fecho foi mais lento.
+
+## Decisões a tomar antes de escrever o protocolo
+
+- [ ] Confirmar com o Programa Nacional de DNT a lista mínima de indicadores da secção anterior e os dois indicadores a acrescentar para a HTA.
+- [ ] Decidir o indicador de controlo glicémico do piloto (GPJ via O8) em função da disponibilidade real de HbA1c nas 4 unidades.
+- [ ] Fixar as metas de partida por unidade após a linha de base (a OMS não fixa metas, p. 8).
+- [ ] Definir o formato da lista de lacunas abertas por doente (papel, folha de cálculo ou módulo da plataforma) para o primeiro trimestre de serviço.
+
+# Referências {.unnumbered}
+
+**Documentos do projecto**
+
+- OMS. *Orientações para a monitorização de doenças não transmissíveis com base nas unidades de saúde: enquadramento, indicadores e aplicação.* Genebra, 2023 (ficheiro 9789240069237-por monitoria de DNTs.pdf). Páginas citadas: 4–8 (método e aplicação), 9–23 (HTA), 24–44 (diabetes).
+- OMS. *HEARTS technical package: evidence-based treatment protocols*, 2018 (WHO-NMH-NVI-18.2-eng.pdf). <https://apps.who.int/iris/bitstream/handle/10665/260421/WHO-NMH-NVI-18.2-eng.pdf>
+- OMS. *HEARTS-D: diagnosis and management of type 2 diabetes*, 2020 (WHO-UCN-NCD-20.1-eng.pdf).
+- OMS. *Pacote de intervenções essenciais contra as DNT para os cuidados de saúde primários (PEN)*, versão portuguesa (PT - WHO-PEN_Final_version).
+- Ministério da Saúde de Angola / OMS. TDR implementação piloto PEN WHO 2026 Luanda e Huíla; TDR Consultor internacional WHO PEN 2026.
+
+**Literatura**
+
+- Geldsetzer P, et al. The state of hypertension care in 44 low-income and middle-income countries. *Lancet* 2019;394:652–62. <https://doi.org/10.1016/S0140-6736(19)30955-9>
+- McGlynn EA, et al. The quality of health care delivered to adults in the United States. *N Engl J Med* 2003;348:2635–45. <https://doi.org/10.1056/NEJMsa022615>
+- Jafar TH, et al. (Resolve to Save Lives / World Hypertension League). Recommended treatment protocols to improve management of hypertension globally. *J Clin Hypertens* 2018;20:829–36. <https://pmc.ncbi.nlm.nih.gov/articles/PMC8030787>
+- Resolve to Save Lives. Hypertension treatment protocols by country. <https://resolvetosavelives.org/priorities-strategies/blood-pressure-control/simple-protocols/page/2/>
+- NICE. Visual summaries (NG185 Acute coronary syndromes; NG250 Pneumonia) e baseline assessment tools. <https://www.nice.org.uk/guidance/ng185/resources> · <https://www.nice.org.uk/guidance/NG250/resources>
+- BMJ Rapid Recommendations: infographic summaries user testing in primary care. *BMJ Open* 2023;13:e071847. <https://doi.org/10.1136/bmjopen-2023-071847>
+- Hirschel T, Vandvik P, Agoritsas T. Clinicians' experience with infographic summaries from the BMJ Rapid Recommendations. *BMJ Open* 2025;15:e083032. <https://doi.org/10.1136/bmjopen-2023-083032>
+- PEER / College of Family Physicians of Canada. Simplified guidelines (lípidos 2023; dor crónica 2022; perturbação por uso de opióides). <https://acfp.ca/research-and-tools/peer-resources/>
+- Ontario Health. Hypertension quality standard: technical specifications for indicators, 2024. <https://hqontario.ca/Portals/0/documents/evidence/quality-standards/qs-hypertension-technical-specifications-en.pdf>; Prediabetes and Type 2 Diabetes quality standard: measurement guide. <https://www.hqontario.ca/Portals/0/documents/evidence/quality-standards/qs-prediabetes-and-type-2-diabetes-measurement-guide.pdf>
+- NACHC. Clinical quality measures: closing care gaps, 2025. <https://nachc.org/wp-content/uploads/2025/07/Clinical-Quality-Measures_Care-Gaps.pdf>
+- PCRS-UK. Quick guide to the diagnosis and management of COPD in primary care. <https://www.pcrs-uk.org/resource/quick-guide-diagnosis-and-management-copd-primary-care>
+- RE-AIM / PRISM: <https://re-aim.org>; CFIR: <https://cfirguide.org> (ficheiros no projecto: iprism-and-reaim-guidebook_wip.pdf; CFIR Constructs and Definitions 2025).
