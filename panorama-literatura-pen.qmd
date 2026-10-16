@@ -112,7 +112,7 @@ Este capítulo é um mapa panorâmico, deliberadamente superficial em cada item,
 
 **PEN e HEARTS convivem de forma confusa na literatura.** O Butão chama-lhe "PEN HEARTS", o Tajiquistão "PEN/HEARTS". O projecto precisa de uma posição clara sobre qual é o referencial clínico de base.
 
-## Referências
+## Referências {.unnumbered}
 
 1. World Health Organization. *WHO package of essential noncommunicable (PEN) disease interventions for primary health care*. Geneva: WHO; 2020. <https://iris.who.int/server/api/core/bitstreams/b9f09202-a320-4c07-ba2c-afe0d1186339/content>
 2. World Health Organization. *Package of essential noncommunicable (PEN) disease interventions for primary health care in low-resource settings*. Geneva: WHO; 2010. <https://courses.nextgenu.org/pluginfile.php/75186/mod_page/content/18/WHO%20prevention.pdf>

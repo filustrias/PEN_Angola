@@ -1,7 +1,6 @@
 /.quarto/
 /_freeze/
-*_files/
-*.html
-!docs/**
+/_book/
+/docs/
 
 **/*.quarto_ipynb

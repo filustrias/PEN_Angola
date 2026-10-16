@@ -1,3 +1,15 @@
 # Apresentação {.unnumbered}
 
-Este livro reúne os documentos produzidos no estudo sobre a implementação do pacote de intervenções essenciais para doenças não transmissíveis da OMS (WHO PEN) em Angola.
+Este livro reúne os documentos de trabalho produzidos no estudo sobre a implementação do pacote de intervenções essenciais para doenças não transmissíveis da OMS (WHO PEN) nos cuidados primários em Angola.
+
+O livro está organizado em três partes:
+
+- **Evidência** — @sec-panorama-pen traça um mapa panorâmico da literatura científica e normativa sobre o WHO PEN e o PEN-Plus: histórico, países onde foi implementado e tipos de estudo publicados.
+- **Enquadramentos de implementação** — @sec-enquadramentos apresenta o RE-AIM, o PRISM e o CFIR e como se articulam; @sec-desenho aplica-os à definição da "inovação" PEN Angola, distinguindo o seu núcleo da periferia adaptável.
+- **Aplicação ao piloto** — @sec-lacunas propõe construir os protocolos clínicos e os indicadores do piloto de Luanda e Huíla a partir das lacunas de cuidado em hipertensão e diabetes.
+
+Cada capítulo traz as suas próprias referências no final.
+
+::: {.callout-note appearance="minimal"}
+Documento de trabalho em construção. Use o botão no topo da barra lateral para alternar entre os modos claro e escuro.
+:::

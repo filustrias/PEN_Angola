@@ -1,26 +1,51 @@
 project:
   type: book
-  output-dir: docs
+  output-dir: _book
 
 lang: pt
 
 book:
   title: "PEN Angola"
-  subtitle: "Estudo de implementação do pacote WHO PEN em Angola"
-  author: "Adelson Guaraci"
+  subtitle: "Ciência da implementação do WHO PEN nos cuidados primários em Angola"
+  author: "Adelson Guaraci Jantsch"
   date: today
   date-format: "D [de] MMMM [de] YYYY"
+  site-url: https://filustrias.github.io/PEN_Angola/
   repo-url: https://github.com/filustrias/PEN_Angola
-  repo-actions: [issue]
+  repo-actions: [source, issue]
+  search: true
+  page-navigation: true
+  sidebar:
+    style: docked
+  page-footer:
+    center: "PEN Angola · Adelson Guaraci Jantsch"
   chapters:
     - index.qmd
-    # Os três capítulos serão adicionados aqui
-    - references.qmd
+    - part: "Evidência"
+      chapters:
+        - panorama-literatura-pen.qmd
+    - part: "Enquadramentos de implementação"
+      chapters:
+        - reaim-prism-cfir-pen-angola.qmd
+        - cfir-reaim-desenho-pen.qmd
+    - part: "Aplicação ao piloto"
+      chapters:
+        - lacunas-de-cuidado-pen-angola.qmd
 
-bibliography: references.bib
+crossref:
+  tbl-title: "Tabela"
+  fig-title: "Figura"
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, estilos/comum.scss, estilos/claro.scss]
+      dark: [darkly, estilos/comum.scss, estilos/escuro.scss]
+    respect-user-color-scheme: true
     toc: true
+    toc-depth: 3
+    toc-title: "Nesta página"
     number-sections: true
+    number-depth: 3
+    smooth-scroll: true
+    callout-appearance: simple

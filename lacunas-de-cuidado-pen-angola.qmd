@@ -1,28 +1,10 @@
----
-title: "Lacunas de cuidado: da guia clínica ao indicador"
-subtitle: "Implementação do PEN-OMS em Angola — piloto de Luanda e Huíla"
-author: "Adelson Guaraci Jantsch"
-date: 2026-10-16
-lang: pt
-format:
-  html:
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    theme: cosmo
-    embed-resources: true
-  docx:
-    toc: true
-    number-sections: true
-  pdf:
-    toc: true
-    number-sections: true
-    documentclass: article
-    geometry: margin=2.5cm
-bibliography: false
----
+# Lacunas de cuidado: da guia clínica ao indicador {#sec-lacunas}
 
-# Porquê construir protocolos a partir das lacunas de cuidado
+::: {.chapter-subtitle}
+Implementação do PEN-OMS em Angola — piloto de Luanda e Huíla
+:::
+
+## Porquê construir protocolos a partir das lacunas de cuidado
 
 Um protocolo clínico só muda a prática quando responde, para cada decisão, a três perguntas na mesma frase: o que deve ser feito, a quem, e como saberemos se foi feito. A terceira pergunta é a que normalmente falta. Os manuais de HTA e de diabetes que o PEN Angola já produziu dizem o que fazer; o que ainda não dizem é onde, hoje, as pessoas deixam de receber esse cuidado — e é exactamente isso que um indicador deveria medir.
 
@@ -36,7 +18,7 @@ O ganho não é só de coerência. A magnitude da lacuna, multiplicada pela redu
 
 A dimensão do problema é conhecida. Nos EUA, um estudo de referência mostrou que os adultos recebiam apenas cerca de 55% dos cuidados recomendados (McGlynn et al., 2003). Em 44 países de baixo e médio rendimento, entre as pessoas com hipertensão, 73,6% tinham alguma vez medido a tensão arterial, 39,2% tinham diagnóstico, 29,9% estavam em tratamento e apenas 10,3% estavam controladas (Geldsetzer et al., *Lancet* 2019). Esta cascata é, na prática, uma sequência de lacunas de cuidado encadeadas — e o piloto de Luanda e Huíla vai encontrar uma cascata semelhante nas suas quatro unidades.
 
-# O que é uma lacuna de cuidado
+## O que é uma lacuna de cuidado
 
 Lacuna de cuidado (*care gap*) é a diferença entre o cuidado que a melhor evidência recomenda para uma pessoa elegível e o cuidado que está documentado como recebido, num período definido. A definição tem quatro peças, e todas contam: evidência (não opinião), elegibilidade (não toda a gente), documentação (o que não está registado conta como não feito) e período (uma HbA1c de há três anos não fecha a lacuna de hoje).
 
@@ -92,7 +74,7 @@ flowchart LR
 
 A cascata encadeia as lacunas: cada degrau só é avaliável para quem passou o anterior, e os perdidos de seguimento saem da cascata sem que se saiba em que degrau estavam.
 
-# Guias clínicas sumárias de uma página: exemplos da literatura
+## Guias clínicas sumárias de uma página: exemplos da literatura
 
 Os melhores exemplos de guias de uma página partilham uma característica: cada caixa do algoritmo corresponde a uma decisão verificável, e por isso a um potencial indicador. Os exemplos abaixo foram escolhidos por serem usados em cuidados primários e por terem ensinamentos directos para o formato que o PEN Angola vai adoptar.
 
@@ -117,7 +99,7 @@ Três lições transversais:
 
 Uma nota de prudência: existem muitos resumos de uma página de origem comercial ou de qualidade heterogénea. A selecção acima limita-se a produtos de agências públicas, sociedades profissionais e revistas com revisão por pares; para Angola, o ponto de partida obrigatório são os protocolos da OMS já no projecto.
 
-# Da recomendação ao indicador
+## Da recomendação ao indicador
 
 Uma recomendação bem escrita já contém o indicador. A regra de escrita é: verbo de acção + população elegível + prazo + critério de resultado. Se a frase não tiver estes quatro elementos, ou não é verificável ou não tem denominador.
 
@@ -138,7 +120,7 @@ Quatro regras tornam o indicador honesto:
 3. A janela temporal é explícita e igual em todas as unidades (último ano, último trimestre, últimos 3 meses de tratamento). Sem isso não há comparação.
 4. A lacuna é reportada como lacuna, não só como indicador. «42% controlados» e «58% com lacuna de controlo» são o mesmo número, mas o segundo diz à equipa quantas pessoas tem de ir buscar.
 
-## Pesar as lacunas pela evidência
+### Pesar as lacunas pela evidência
 
 Nem todas as lacunas valem o mesmo. O que as ordena é o benefício absoluto da acção que as fecha, aplicado ao número de pessoas que estão na lacuna:
 
@@ -152,11 +134,11 @@ Exemplo ilustrativo, com números hipotéticos para uma unidade do piloto: 300 p
 
 O mesmo raciocínio aplica-se ao dano (NNH): uma lacuna de «intensificação» fechada com demasiado zelo em idosos frágeis troca AVC evitados por quedas e síncopes. A guia de uma página deve dizer onde parar, e o indicador de controlo deve ter a excepção registável (meta individualizada).
 
-# Os indicadores do documento orientador da OMS lidos como lacunas de cuidado
+## Os indicadores do documento orientador da OMS lidos como lacunas de cuidado
 
 O documento orientador é «Orientações para a monitorização de doenças não transmissíveis com base nas unidades de saúde: enquadramento, indicadores e aplicação» (OMS, 2023; ficheiro 9789240069237-por no projecto). Propõe 22 indicadores principais e 59 opcionais (p. 4), organizados em determinantes do programa, prestação de serviços e objectivos do programa (Fig. 1, p. 5–6). A OMS recomenda que cada país seleccione os indicadores de acordo com as prioridades e a capacidade, e fixe os valores de partida e as metas (p. 7–8). A leitura abaixo faz exactamente isso para o piloto, mas traduzindo cada indicador na lacuna que ele revela — ou esconde.
 
-## Hipertensão (p. 9–23)
+### Hipertensão (p. 9–23)
 
 | Indicador OMS (página) | Lacuna que mede | Elegíveis (denominador) | Lacuna aberta quando | Tipo |
 |---|---|---|---|---|
@@ -181,7 +163,7 @@ Observações críticas para o piloto:
 - Falta à lista da OMS, para a HTA, um indicador de tratamento conforme protocolo (existe para a diabetes, O1 p. 30) e um indicador de intensificação em quem está fora da meta. A inércia clínica é, na literatura de cuidados primários, a lacuna que mais explica o mau controlo; recomenda-se acrescentar os dois (definições na secção anterior).
 - C1–C3 e O6 têm as unidades como denominador. Com 4 unidades no piloto, uma percentagem só pode valer 0, 25, 50, 75 ou 100%. Para Luanda e Huíla é mais útil reportar por unidade: dias de ruptura por classe terapêutica no trimestre e número de profissionais formados / em serviço.
 
-## Diabetes (p. 24–44)
+### Diabetes (p. 24–44)
 
 | Indicador OMS (página) | Lacuna que mede | Elegíveis (denominador) | Lacuna aberta quando | Tipo |
 |---|---|---|---|---|
@@ -208,7 +190,7 @@ Observações críticas para o piloto:
 - O6 (exame do pé) e O7 (retina) são lacunas de monitorização cujo fecho tem benefício absoluto comprovado (amputações e cegueira evitáveis, que são os desfechos O10 e O11). O exame do pé não precisa de nenhum insumo além de tempo e formação: é um bom indicador de fidelidade ao protocolo.
 - Os desfechos tardios (O9–O11) não servem para gerir o piloto em 12 meses; servem para a avaliação e para a narrativa de expansão. Devem ser recolhidos, mas não usados como metas de curto prazo.
 
-## Lista proposta para a linha de base do piloto
+### Lista proposta para a linha de base do piloto
 
 Seguindo a recomendação da OMS de seleccionar poucos indicadores relevantes e exequíveis (p. 7), e lendo-os como lacunas, a lista mínima para a linha de base nas 4 unidades seria:
 
@@ -222,7 +204,7 @@ Seguindo a recomendação da OMS de seleccionar poucos indicadores relevantes e 
 
 Cada um destes indicadores define um campo obrigatório na ficha de registo de doentes crónicos que o TDR do consultor manda desenhar (Fase 3), e uma caixa no fluxograma de uma página.
 
-# Implicações para o piloto PEN Angola
+## Implicações para o piloto PEN Angola
 
 As lacunas de cuidado dão ao RE-AIM os seus números e ao CFIR as suas perguntas. Cada dimensão do RE-AIM corresponde a um tipo de lacuna, e cada lacuna aberta é um sintoma cujo diagnóstico se faz com os domínios do CFIR.
 
@@ -238,7 +220,7 @@ As lacunas de cuidado dão ao RE-AIM os seus números e ao CFIR as suas pergunta
 
 O PRISM acrescenta o contexto que explica a variação entre as quatro unidades: duas lacunas de controlo iguais em Luanda e na Huíla podem ter causas opostas (ruptura de stock numa, perda de seguimento por distância noutra). O painel de lacunas deve, por isso, ser lido unidade a unidade, com a classificação dados / oferta / adesão para cada lacuna aberta.
 
-## O que muda no desenho do piloto
+### O que muda no desenho do piloto
 
 1. A linha de base (actividade «análise da situação dos centros de saúde», TDR) deve medir as lacunas, não só a prevalência: para cada unidade, a cascata (rastreados → diagnosticados → tratados → controlados) e as lacunas estruturais.
 2. Os manuais e fluxogramas a imprimir (actividade «desenho e impressão dos manuais e fluxogramas») devem ter a versão de uma página por condição, com cada caixa ligada a um campo da ficha e a um indicador.
@@ -247,14 +229,14 @@ O PRISM acrescenta o contexto que explica a variação entre as quatro unidades:
 5. A formação dos profissionais deve ensinar o protocolo como um conjunto de lacunas a fechar, com o benefício absoluto de cada uma — e não como uma lista de regras.
 6. A avaliação intercalar e a proposta de expansão devem apresentar a variação das lacunas ao longo do tempo (RE-AIM) e a explicação contextual (PRISM/CFIR) de onde o fecho foi mais lento.
 
-## Decisões a tomar antes de escrever o protocolo
+### Decisões a tomar antes de escrever o protocolo
 
 - [ ] Confirmar com o Programa Nacional de DNT a lista mínima de indicadores da secção anterior e os dois indicadores a acrescentar para a HTA.
 - [ ] Decidir o indicador de controlo glicémico do piloto (GPJ via O8) em função da disponibilidade real de HbA1c nas 4 unidades.
 - [ ] Fixar as metas de partida por unidade após a linha de base (a OMS não fixa metas, p. 8).
 - [ ] Definir o formato da lista de lacunas abertas por doente (papel, folha de cálculo ou módulo da plataforma) para o primeiro trimestre de serviço.
 
-# Referências {.unnumbered}
+## Referências {.unnumbered}
 
 **Documentos do projecto**
 

@@ -1,43 +1,16 @@
----
-title: "A inovação PEN: desenhar com o CFIR, implementar com o RE-AIM"
-subtitle: "Elementos a ter em conta na implementação do WHO PEN em Angola"
-author: "Adelson Guaraci Jantsch"
-date: 2026-10-16
-date-format: "D [de] MMMM [de] YYYY"
-lang: pt
-format:
-  html:
-    theme: [cosmo, custom.scss]
-    toc: true
-    toc-depth: 2
-    toc-title: "Conteúdo"
-    number-sections: true
-    smooth-scroll: true
-  pdf:
-    documentclass: scrartcl
-    papersize: a4
-    geometry: margin=2.5cm
-    toc: true
-    number-sections: true
-    colorlinks: true
-callout-appearance: simple
----
+# A inovação PEN: desenhar com o CFIR, implementar com o RE-AIM {#sec-desenho}
 
-```{=html}
-<style>
-.callout-exemplo { border-left: 4px solid #0b6e4f; background: #f3faf7; padding: .9rem 1.1rem; margin: 1rem 0; border-radius: 4px; font-style: italic; }
-.callout-exemplo .titulo { font-style: normal; font-weight: 600; color: #0b6e4f; font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; margin-bottom: .35rem; }
-.tabela-compacta td, .tabela-compacta th { font-size: .92rem; vertical-align: top; }
-</style>
-```
+::: {.chapter-subtitle}
+Elementos a ter em conta na implementação do WHO PEN em Angola
+:::
 
-# O que é a "inovação"
+## O que é a "inovação"
 
 No [CFIR](https://cfirguide.org/), inovação é simplesmente *a coisa que se implementa*, vista do ponto de vista de quem a vai adoptar. Não precisa de ser nova no mundo; basta ser nova para a unidade sanitária.
 
 O ponto decisivo é este: **a inovação não é o manual do PEN.** É o pacote concreto que vai funcionar nas unidades de Angola, descrito com precisão suficiente para que outra pessoa o reproduza. O CFIR distingue, dentro de qualquer inovação, um **núcleo** (*core components*) e uma **periferia adaptável** (*adaptable periphery*).
 
-## Núcleo e periferia do PEN Angola
+### Núcleo e periferia do PEN Angola
 
 ::: {.columns}
 ::: {.column width="48%"}
@@ -66,7 +39,7 @@ O ponto decisivo é este: **a inovação não é o manual do PEN.** É o pacote 
 *Sem esta distinção, cada província vai "adaptar" o PEN até ele deixar de ser o PEN — e depois não saberemos o que foi avaliado nem o que foi implementado.*
 :::
 
-# Como o CFIR refina a inovação
+## Como o CFIR refina a inovação
 
 O domínio *Inovação* do CFIR 2022 tem oito constructos ([Damschroder et al., 2022](https://doi.org/10.1186/s13012-022-01245-0)). Cada um é, na prática, uma pergunta de desenho a fazer antes de implementar.
 
@@ -93,11 +66,11 @@ O domínio *Inovação* do CFIR 2022 tem oito constructos ([Damschroder et al., 
 *Se o diagnóstico CFIR mostrar que as unidades têm tensiómetro mas não glucómetro, o desenho da inovação na primeira fase pode ser "PEN-HTA com rastreio de diabetes por sintomas e referência", e não o pacote completo. Isto é refinar a inovação com o CFIR: ajustar o pacote ao contexto antes de o implementar, não depois de falhar.*
 :::
 
-# Como o RE-AIM organiza o planeamento, a implementação e a manutenção
+## Como o RE-AIM organiza o planeamento, a implementação e a manutenção
 
 O [RE-AIM](https://re-aim.org/) entra quando a inovação já está definida. A regra é simples: **cada dimensão vira uma meta, uma fonte de dados e uma estratégia — antes de começar.**
 
-## Alcance — planeamento
+### Alcance — planeamento
 
 Definir a população elegível (adultos com 40 anos ou mais na área da unidade? todos os utentes com TA ≥ 140/90 mmHg?), a meta e como chegar a quem não vem à unidade.
 
@@ -106,7 +79,7 @@ Definir a população elegível (adultos com 40 anos ou mais na área da unidade
 *Meta: 60 % dos adultos elegíveis rastreados em 12 meses. Estratégias: rastreio oportunista em todas as consultas (não só na "consulta de crónicos") e envolvimento dos agentes comunitários para os homens, que raramente procuram a unidade.*
 :::
 
-## Efectividade — planeamento
+### Efectividade — planeamento
 
 Fixar os desfechos em medidas absolutas e a fonte de dados. Decidir desde já se haverá comparação — unidades com e sem PEN, ou antes/depois.
 
@@ -115,7 +88,7 @@ Fixar os desfechos em medidas absolutas e a fonte de dados. Decidir desde já se
 *Desfecho primário: proporção de hipertensos com TA < 140/90 mmHg aos 12 meses, retirada do registo de crónicos. Reportar a redução absoluta do risco e o NNT estimado, não apenas a proporção controlada.*
 :::
 
-## Adopção — implementação
+### Adopção — implementação
 
 Escolher as unidades e saber quem recusa e porquê. Envolver o médico-chefe municipal. Começar pelos *early adopters* e usar o seu exemplo com os restantes.
 
@@ -124,7 +97,7 @@ Escolher as unidades e saber quem recusa e porquê. Envolver o médico-chefe mun
 *Das 30 unidades de uma província, 8 iniciam o PEN no primeiro semestre. As 22 restantes não são "falhas": são a amostra que diz quais os obstáculos à adopção (sem enfermeiro, sem medicamentos, sem interesse da direcção) e o que mudar antes de alargar.*
 :::
 
-## Implementação — implementação
+### Implementação — implementação
 
 Formar, supervisionar, medir fidelidade, registar adaptações e custos. Aqui entram as estratégias que o diagnóstico CFIR apontou.
 
@@ -133,7 +106,7 @@ Formar, supervisionar, medir fidelidade, registar adaptações e custos. Aqui en
 *Se a barreira identificada era "falta de tempo na consulta", a estratégia é reorganizar o fluxo — triagem com medição de TA antes da consulta — e não mais formação. Formar de novo quem já sabe mas não tem tempo é a estratégia errada para a barreira certa.*
 :::
 
-## Manutenção — desde o início
+### Manutenção — desde o início
 
 O que acontece quando o financiamento externo acabar? A resposta é de desenho, não de esperança.
 
@@ -148,7 +121,7 @@ O que acontece quando o financiamento externo acabar? A resposta é de desenho, 
 *Uma unidade pode ter alcance alto e efectividade boa aos 12 meses e, aos 24, ter perdido tudo porque o único enfermeiro formado foi transferido. O RE-AIM obriga a planear a manutenção enquanto se planeia o resto.*
 :::
 
-# Síntese
+## Síntese
 
 O CFIR desenha a inovação certa para o contexto; o RE-AIM garante que ela chega às pessoas certas, funciona, é adoptada, é feita como previsto e dura. **Os dois usam-se antes de começar**, não só para explicar o que aconteceu.
 
@@ -161,7 +134,7 @@ O CFIR desenha a inovação certa para o contexto; o RE-AIM garante que ela cheg
 
 : Quando usar cada enquadramento {.tabela-compacta}
 
-# Referências {.unnumbered}
+## Referências {.unnumbered}
 
 - Damschroder LJ, Reardon CM, Widerquist MAO, Lowery J. The updated Consolidated Framework for Implementation Research based on user feedback. *Implement Sci*. 2022;17:75. <https://doi.org/10.1186/s13012-022-01245-0>
 - Glasgow RE, Harden SM, Gaglio B, et al. RE-AIM planning and evaluation framework: adapting to new science and practice with a 20-year review. *Front Public Health*. 2019;7:64. <https://doi.org/10.3389/fpubh.2019.00064>

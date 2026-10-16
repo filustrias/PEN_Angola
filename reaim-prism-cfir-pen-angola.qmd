@@ -1,41 +1,10 @@
----
-title: "RE-AIM, PRISM e CFIR"
-subtitle: "Visão panorâmica dos enquadramentos de ciência da implementação para o PEN Angola"
-author: "Adelson Guaraci Jantsch"
-date: 2026-10-16
-date-format: "D [de] MMMM [de] YYYY"
-lang: pt
-format:
-  html:
-    theme: [cosmo, custom.scss]
-    toc: true
-    toc-depth: 2
-    toc-title: "Conteúdo"
-    number-sections: true
-    smooth-scroll: true
-    code-fold: false
-    fig-cap-location: bottom
-  pdf:
-    documentclass: scrartcl
-    papersize: a4
-    geometry: margin=2.5cm
-    toc: true
-    number-sections: true
-    colorlinks: true
-    mainfont: "Source Serif Pro"
-    sansfont: "Source Sans Pro"
-callout-appearance: simple
----
+# RE-AIM, PRISM e CFIR {#sec-enquadramentos}
 
-```{=html}
-<style>
-.callout-exemplo { border-left: 4px solid #0b6e4f; background: #f3faf7; padding: .9rem 1.1rem; margin: 1rem 0; border-radius: 4px; font-style: italic; }
-.callout-exemplo .titulo { font-style: normal; font-weight: 600; color: #0b6e4f; font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; margin-bottom: .35rem; }
-.tabela-compacta td, .tabela-compacta th { font-size: .92rem; vertical-align: top; }
-</style>
-```
+::: {.chapter-subtitle}
+Visão panorâmica dos enquadramentos de ciência da implementação para o PEN Angola
+:::
 
-# Porque precisamos de ciência da implementação
+## Porque precisamos de ciência da implementação
 
 O pacote [WHO PEN](https://www.who.int/publications/i/item/9789240009226) já tem evidência de eficácia. O que não está garantido é que funcione nas unidades sanitárias de Angola. A **ciência da implementação** estuda exactamente esta distância: os métodos para levar intervenções comprovadas à prática de rotina, em contextos reais, com os recursos que existem.
 
@@ -56,13 +25,13 @@ Os três são complementares e usam-se em conjunto: **o CFIR diagnostica, o PRIS
 *Uma hipertensão não controlada numa doente de 55 anos no Cuanza Sul pode ter origem num fármaco em ruptura (CFIR — contexto externo), numa equipa que não foi formada (PRISM — infra-estrutura de implementação) ou num protocolo que simplesmente não chegou àquela unidade (RE-AIM — alcance). Saber qual é a causa muda a resposta.*
 :::
 
-# RE-AIM — medir o impacto real de uma inovação
+## RE-AIM — medir o impacto real de uma inovação
 
 O RE-AIM ([Glasgow, Vogt e Boles, 1999](https://doi.org/10.2105/AJPH.89.9.1322)) nasceu de uma constatação simples: um tratamento com grande efeito num ensaio clínico pode ter impacto populacional quase nulo se chegar a poucas pessoas, se poucos serviços o adoptarem ou se for abandonado ao fim de um ano. O impacto em saúde pública é o produto das cinco dimensões, não só da eficácia.
 
-## As cinco dimensões
+### As cinco dimensões
 
-### Reach — Alcance {.unnumbered}
+#### Reach — Alcance {.unnumbered}
 
 *Nível: indivíduo.* Proporção **e representatividade** das pessoas elegíveis que recebem a intervenção.
 
@@ -71,7 +40,7 @@ O RE-AIM ([Glasgow, Vogt e Boles, 1999](https://doi.org/10.2105/AJPH.89.9.1322))
 *Dos adultos com 40 anos ou mais que passam pela unidade, que fracção tem a tensão arterial medida e o risco cardiovascular estimado? Quem fica de fora — homens, pessoas de zonas rurais, pessoas sem rendimento?*
 :::
 
-### Effectiveness — Efectividade {.unnumbered}
+#### Effectiveness — Efectividade {.unnumbered}
 
 *Nível: indivíduo.* Efeito nos desfechos em condições reais, incluindo efeitos adversos, qualidade de vida e desigualdades.
 
@@ -80,7 +49,7 @@ O RE-AIM ([Glasgow, Vogt e Boles, 1999](https://doi.org/10.2105/AJPH.89.9.1322))
 *Proporção de hipertensos com TA < 140/90 mmHg aos 12 meses; HbA1c nos diabéticos; episódios de hipoglicemia; diferença de controlo entre homens e mulheres.*
 :::
 
-### Adoption — Adopção {.unnumbered}
+#### Adoption — Adopção {.unnumbered}
 
 *Nível: serviço e profissional.* Proporção e representatividade das unidades e dos profissionais que aceitam oferecer a intervenção.
 
@@ -89,7 +58,7 @@ O RE-AIM ([Glasgow, Vogt e Boles, 1999](https://doi.org/10.2105/AJPH.89.9.1322))
 *Das 30 unidades convidadas numa província, quantas iniciaram o PEN? Que tipo de unidade adere (urbana, com médico) e qual não adere?*
 :::
 
-### Implementation — Implementação {.unnumbered}
+#### Implementation — Implementação {.unnumbered}
 
 *Nível: serviço.* Fidelidade ao protocolo, adaptações feitas, consistência, custos e tempo.
 
@@ -98,7 +67,7 @@ O RE-AIM ([Glasgow, Vogt e Boles, 1999](https://doi.org/10.2105/AJPH.89.9.1322))
 *Os enfermeiros usam a tabela de risco da OMS? Titulam a medicação conforme o algoritmo? Quanto custa implementar por unidade?*
 :::
 
-### Maintenance — Manutenção {.unnumbered}
+#### Maintenance — Manutenção {.unnumbered}
 
 *Nível: indivíduo e serviço.* Sustentação dos efeitos (seis meses ou mais) e da intervenção na rotina do serviço.
 
@@ -107,7 +76,7 @@ O RE-AIM ([Glasgow, Vogt e Boles, 1999](https://doi.org/10.2105/AJPH.89.9.1322))
 *A doente continua controlada aos 24 meses? A unidade mantém o PEN depois de terminar o apoio do projecto e da OMS?*
 :::
 
-## Três ideias a reter
+### Três ideias a reter
 
 1. **Representatividade importa tanto quanto a proporção.** Um alcance de 60 % composto só por mulheres urbanas é um resultado inequitativo, mesmo que o número seja bom.
 2. **As dimensões multiplicam-se.** Alcance de 50 % × adopção de 50 % × fidelidade de 50 % dá um quarto do impacto esperado — o que ajuda a explicar porque intervenções eficazes "não funcionam" no terreno.
@@ -115,13 +84,13 @@ O RE-AIM ([Glasgow, Vogt e Boles, 1999](https://doi.org/10.2105/AJPH.89.9.1322))
 
 Com o tempo, o RE-AIM incorporou explicitamente a equidade, o custo, a adaptação iterativa e a perspectiva de múltiplos actores ([Glasgow et al., 2019](https://doi.org/10.3389/fpubh.2019.00064); [Holtrop et al., 2021](https://doi.org/10.1017/cts.2021.789)), o que o aproxima do PRISM.
 
-# PRISM — o contexto que explica os resultados
+## PRISM — o contexto que explica os resultados
 
 O PRISM (*Practical, Robust Implementation and Sustainability Model*; [Feldstein e Glasgow, 2008](https://doi.org/10.1016/S1553-7250(08)34030-6)) responde a uma limitação do RE-AIM: este diz *quanto* se conseguiu, mas não *porquê*. O PRISM acrescenta quatro domínios de contexto que influenciam cada dimensão do RE-AIM. Cada domínio é olhado de duas perspectivas — a da **organização** (gestores, profissionais) e a do **destinatário** (utentes, comunidade).
 
-## Os quatro domínios de contexto
+### Os quatro domínios de contexto
 
-### Intervenção {.unnumbered}
+#### Intervenção {.unnumbered}
 
 A inovação é simples, adaptável, compatível com a rotina? Traz vantagens visíveis? Dá trabalho a quem?
 
@@ -130,7 +99,7 @@ A inovação é simples, adaptável, compatível com a rotina? Traz vantagens vi
 *Os algoritmos do PEN são simples, mas exigem medir TA, glicemia e, idealmente, colesterol. Para o enfermeiro, a vantagem é ter regras claras; para o utente, é saber o seu risco e sair com tratamento no mesmo dia.*
 :::
 
-### Destinatários {.unnumbered}
+#### Destinatários {.unnumbered}
 
 Que características das equipas e dos utentes facilitam ou dificultam? Liderança, formação, carga de trabalho, literacia, crenças sobre a doença.
 
@@ -139,7 +108,7 @@ Que características das equipas e dos utentes facilitam ou dificultam? Lideran�
 *Unidades com um enfermeiro-chefe engajado adoptam mais depressa. Utentes que vêem a hipertensão como "doença de nervos" abandonam a medicação quando se sentem bem.*
 :::
 
-### Ambiente externo {.unnumbered}
+#### Ambiente externo {.unnumbered}
 
 Políticas, financiamento, regulação, cadeia de abastecimento, pressões da comunidade.
 
@@ -148,7 +117,7 @@ Políticas, financiamento, regulação, cadeia de abastecimento, pressões da co
 *Disponibilidade de amlodipina e metformina no sistema de aprovisionamento; existência (ou não) de uma política nacional de DNT; prioridade dada pela direcção provincial de saúde.*
 :::
 
-### Infra-estrutura de implementação e sustentabilidade {.unnumbered}
+#### Infra-estrutura de implementação e sustentabilidade {.unnumbered}
 
 Que estrutura garante a implementação e a continuidade: formação, supervisão, dados, pessoa responsável, orçamento.
 
@@ -157,7 +126,7 @@ Que estrutura garante a implementação e a continuidade: formação, supervisã
 *Supervisão de apoio trimestral; registo dos doentes crónicos; indicadores no DHIS2; um ponto focal de DNT em cada município; linha orçamental própria.*
 :::
 
-## Como se usa
+### Como se usa
 
 O PRISM organiza-se em duas partes: os **domínios de contexto** à esquerda alimentam os **resultados RE-AIM** à direita. Na prática, é um guião de planeamento: antes de implementar o PEN numa província, percorrem-se os quatro domínios para prever onde vai haver fricção e desenhar a estratégia em conformidade.
 
@@ -166,13 +135,13 @@ O PRISM organiza-se em duas partes: os **domínios de contexto** à esquerda ali
 *O piloto de hipertensão e diabetes pode usar os domínios do PRISM como lista de verificação de prontidão de cada unidade e as dimensões do RE-AIM como painel de indicadores do piloto. A mesma lógica estende-se depois às restantes condições do PEN — asma, DPOC, epilepsia, rastreio de cancro.*
 :::
 
-# CFIR — o mapa dos determinantes
+## CFIR — o mapa dos determinantes
 
 O CFIR (*Consolidated Framework for Implementation Research*; [Damschroder et al., 2009](https://doi.org/10.1186/1748-5908-4-50), actualizado em [2022](https://doi.org/10.1186/s13012-022-01245-0)) é o enquadramento mais usado para identificar **barreiras e facilitadores**. Não mede resultados: oferece um vocabulário comum e exaustivo — 5 domínios, 48 constructos e 19 subconstructos na versão de 2022 — para descrever o que, no contexto, pode fazer uma implementação correr bem ou mal. A lista completa está em [cfirguide.org/constructs](https://cfirguide.org/constructs/).
 
-## Os cinco domínios
+### Os cinco domínios
 
-### I. Inovação {.unnumbered}
+#### I. Inovação {.unnumbered}
 
 Características do PEN em si: fonte, base de evidência, vantagem relativa, adaptabilidade, complexidade, desenho, custo.
 
@@ -181,7 +150,7 @@ Características do PEN em si: fonte, base de evidência, vantagem relativa, ada
 *O PEN vem da OMS (fonte credível), tem evidência sólida para hipertensão e diabetes tipo 2, é adaptável (a lista de fármacos ajusta-se à realidade angolana), mas exige equipamentos mínimos — tensiómetro, glucómetro, tiras — com custo recorrente.*
 :::
 
-### II. Contexto externo {.unnumbered}
+#### II. Contexto externo {.unnumbered}
 
 O que está fora da unidade sanitária: condições locais, parcerias, pressões externas (políticas, financiamento, sociedade), pressões de pares.
 
@@ -190,7 +159,7 @@ O que está fora da unidade sanitária: condições locais, parcerias, pressões
 *Política nacional de DNT em elaboração; financiamento da Dinamarca com prazo definido; parceiros (OMS, MINSA, direcções provinciais); gratuitidade ou não dos medicamentos.*
 :::
 
-### III. Contexto interno {.unnumbered}
+#### III. Contexto interno {.unnumbered}
 
 O que está dentro da unidade sanitária ou do serviço: estrutura física, informática e de trabalho; cultura; comunicação; tensão para a mudança; compatibilidade; prioridade relativa; incentivos; recursos disponíveis; acesso a conhecimento.
 
@@ -199,7 +168,7 @@ O que está dentro da unidade sanitária ou do serviço: estrutura física, info
 *Uma unidade sem sala para consultas de seguimento, sem fichas de doente crónico e com rotura frequente de medicamentos tem baixa capacidade para o PEN, por mais motivada que esteja a equipa.*
 :::
 
-### IV. Indivíduos {.unnumbered}
+#### IV. Indivíduos {.unnumbered}
 
 Papéis e características das pessoas envolvidas. **Papéis:** líderes de alto nível, líderes intermédios, líderes de opinião, facilitadores, executores, destinatários. **Características:** necessidade, capacidade, oportunidade, motivação.
 
@@ -208,7 +177,7 @@ Papéis e características das pessoas envolvidas. **Papéis:** líderes de alto
 *O médico-chefe municipal (líder intermédio) pode bloquear ou acelerar tudo; o enfermeiro que faz a consulta (executor) precisa de capacidade (formação) e oportunidade (tempo, equipamento); o utente (destinatário) precisa de motivação para voltar mensalmente.*
 :::
 
-### V. Processo de implementação {.unnumbered}
+#### V. Processo de implementação {.unnumbered}
 
 Como a implementação é conduzida: trabalho em equipa, avaliação do contexto, planeamento, envolvimento de líderes, executores e destinatários, execução, reflexão e avaliação, adaptação.
 
@@ -217,7 +186,7 @@ Como a implementação é conduzida: trabalho em equipa, avaliação do contexto
 *Formar uma equipa de implementação provincial, fazer o diagnóstico de prontidão, planear com metas, formar e supervisionar, rever os dados a cada três meses e ajustar.*
 :::
 
-## Como se aplica
+### Como se aplica
 
 1. **Antes da implementação** — o CFIR serve de guião de entrevistas e grupos focais com gestores, profissionais e utentes para mapear barreiras e facilitadores em cada domínio. O resultado é um perfil de contexto por província ou unidade.
 2. **Para escolher estratégias** — cada barreira identificada liga-se a uma estratégia de implementação: formação, supervisão de apoio, auditoria e *feedback*, adaptação do protocolo, envolvimento de líderes. A ferramenta [CFIR–ERIC](https://cfirguide.org/choosing-strategies/) ajuda nesta correspondência ([Waltz et al., 2019](https://doi.org/10.1186/s13012-019-0892-4)).
@@ -225,7 +194,7 @@ Como a implementação é conduzida: trabalho em equipa, avaliação do contexto
 
 O CFIR tem ainda um [adendo sobre resultados](https://doi.org/10.1186/s13012-021-01181-5) (2022) que distingue *resultados de implementação* (o PEN foi adoptado, é aceitável, exequível, feito com fidelidade, sustentado) de *resultados da inovação* (a tensão arterial baixou, os eventos cardiovasculares diminuíram). Esta distinção evita confundir "o PEN não funcionou" com "o PEN não foi implementado".
 
-# Como os três se articulam no ciclo de implementação do PEN
+## Como os três se articulam no ciclo de implementação do PEN
 
 Os três enquadramentos não competem; cobrem fases diferentes do mesmo ciclo. A proposta de trabalho para o projecto é esta:
 
@@ -239,7 +208,7 @@ Os três enquadramentos não competem; cobrem fases diferentes do mesmo ciclo. A
 
 : Ciclo de implementação do PEN e enquadramento de cada fase {.tabela-compacta}
 
-## Dois pontos de rigor ligados à medicina baseada em evidências
+### Dois pontos de rigor ligados à medicina baseada em evidências
 
 - A **efectividade** no RE-AIM deve ser reportada em medidas absolutas — proporção de controlados, redução absoluta do risco, NNT para prevenir um evento cardiovascular em 5 anos com a estratégia de risco total da OMS — e não só em medidas relativas.
 - A **fidelidade** não é dogma: adaptações são esperadas e devem ser registadas (o quê, porquê, por quem), distinguindo as que preservam os ingredientes activos do PEN das que os comprometem.
@@ -248,7 +217,7 @@ Os três enquadramentos não competem; cobrem fases diferentes do mesmo ciclo. A
 Cada secção pode ser aprofundada em separado: os constructos do CFIR um a um, as versões expandidas do RE-AIM (equidade e custo) e a operacionalização dos indicadores no DHIS2 angolano.
 :::
 
-# Referências {.unnumbered}
+## Referências {.unnumbered}
 
 - Glasgow RE, Vogt TM, Boles SM. Evaluating the public health impact of health promotion interventions: the RE-AIM framework. *Am J Public Health*. 1999;89(9):1322-7. <https://doi.org/10.2105/AJPH.89.9.1322>
 - Glasgow RE, Harden SM, Gaglio B, et al. RE-AIM planning and evaluation framework: adapting to new science and practice with a 20-year review. *Front Public Health*. 2019;7:64. <https://doi.org/10.3389/fpubh.2019.00064>
