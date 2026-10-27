@@ -21,6 +21,7 @@ book:
     center: "PEN Angola · Adelson Guaraci Jantsch"
   chapters:
     - index.qmd
+    - preparativos.qmd
     - part: "Evidência"
       chapters:
         - panorama-literatura-pen.qmd

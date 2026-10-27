@@ -1,0 +1,30 @@
+# Preparativos {#sec-preparativos}
+
+::: {.chapter-subtitle}
+Âmbito, financiamento e frentes de trabalho do PEN Angola
+:::
+
+## Duas iniciativas agrupadas
+
+O trabalho em Angola reúne duas iniciativas da OMS, cada uma com financiamento próprio para o país:
+
+| Iniciativa | Financiamento para Angola |
+|:---|:---|
+| WHO PEN | 70 mil dólares |
+| PEN-Plus | 50 mil dólares anuais (à partida) |
+
+: Financiamento das duas iniciativas {#tbl-financiamento}
+
+## Objectivo
+
+Ajudar os países que ainda não têm serviços de saúde disponíveis nem preparados para atender as doenças crónicas não transmissíveis a passar a tê-los. Esses serviços devem estar integrados no sistema de saúde e centrados nas necessidades das pessoas.
+
+## Tópicos de trabalho
+
+1. **Construção das guias clínicas.** @sec-lacunas propõe partir das lacunas de cuidado para escrever as guias e os seus indicadores.
+2. **Digitalização das guias clínicas.**
+3. **Digitalização dos dados no ponto de cuidado** (*point-of-care*).
+4. **Selecção das províncias e unidades sanitárias.**
+5. **Lista de materiais, insumos e estrutura necessária.**
+6. **Ciência da implementação.** Os enquadramentos estão em @sec-enquadramentos e @sec-desenho.
+7. **Envolvimento com universidades.** Produção científica e actividades de extensão universitária.
