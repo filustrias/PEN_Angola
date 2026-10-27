@@ -49,3 +49,6 @@ format:
     number-sections: false
     smooth-scroll: true
     callout-appearance: simple
+    crossrefs-hover: false
+    footnotes-hover: false
+    citations-hover: false
