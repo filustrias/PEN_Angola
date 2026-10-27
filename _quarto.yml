@@ -52,3 +52,6 @@ format:
     crossrefs-hover: false
     footnotes-hover: false
     citations-hover: false
+    link-external-newwindow: true
+    link-external-icon: false
+    link-external-filter: '^(?:http:|https:)\/\/filustrias\.github\.io\/PEN_Angola\/'

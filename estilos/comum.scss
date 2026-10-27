@@ -68,3 +68,6 @@ main h4 {
   text-transform: uppercase; letter-spacing: .05em; margin-top: 1.4rem;
 }
 main h5, main h6 { font-size: 1rem; font-weight: 600; color: var(--pen-muted); }
+
+// Sem caixas de pré-visualização ao passar o rato sobre os links
+[data-tippy-root], .tippy-box { display: none !important; }
