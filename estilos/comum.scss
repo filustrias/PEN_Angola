@@ -54,3 +54,17 @@ main p, main li { hyphens: auto; }
 table { font-size: .9rem; }
 .tabela-compacta td, .tabela-compacta th { font-size: .88rem; vertical-align: top; }
 td, th { vertical-align: top; }
+
+// Hierarquia dos títulos por tamanho e cor (sem numeração)
+h1, h1.title { font-size: 2.3rem; font-weight: 700; color: var(--pen-h1); }
+main h2 {
+  font-size: 1.6rem; font-weight: 600; color: var(--pen-accent);
+  border-bottom: 1px solid var(--pen-rule); padding-bottom: .3rem;
+  margin-top: 2.5rem;
+}
+main h3 { font-size: 1.25rem; font-weight: 600; color: var(--pen-h3); margin-top: 1.8rem; }
+main h4 {
+  font-size: .95rem; font-weight: 700; color: var(--pen-muted);
+  text-transform: uppercase; letter-spacing: .05em; margin-top: 1.4rem;
+}
+main h5, main h6 { font-size: 1rem; font-weight: 600; color: var(--pen-muted); }
