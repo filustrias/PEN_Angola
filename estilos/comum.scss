@@ -71,3 +71,9 @@ main h5, main h6 { font-size: 1rem; font-weight: 600; color: var(--pen-muted); }
 
 // Sem caixas de pré-visualização ao passar o rato sobre os links
 [data-tippy-root], .tippy-box { display: none !important; }
+
+// Links para capítulos podem quebrar linha como o texto à volta
+.quarto-xref span { white-space: normal; }
+
+// Endereços longos nas referências não alargam a página no telemóvel
+a.uri { overflow-wrap: anywhere; }

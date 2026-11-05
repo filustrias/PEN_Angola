@@ -28,6 +28,7 @@ book:
     - part: "Enquadramentos de implementação"
       chapters:
         - reaim-prism-cfir-pen-angola.qmd
+        - reaim.qmd
         - cfir-reaim-desenho-pen.qmd
     - part: "Aplicação ao piloto"
       chapters:
@@ -40,8 +41,8 @@ crossref:
 format:
   html:
     theme:
-      light: [cosmo, estilos/comum.scss, estilos/claro.scss]
-      dark: [darkly, estilos/comum.scss, estilos/escuro.scss]
+      light: [cosmo, estilos/comum.scss, estilos/reaim.scss, estilos/claro.scss]
+      dark: [darkly, estilos/comum.scss, estilos/reaim.scss, estilos/escuro.scss]
     respect-user-color-scheme: true
     toc: true
     toc-depth: 3

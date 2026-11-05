@@ -1,0 +1,312 @@
+# RE-AIM: o que aconteceu de facto {#sec-reaim}
+
+::: {.chapter-subtitle}
+Saber se uma intervenção eficaz chega às pessoas, funciona, é adoptada, é bem feita e dura
+:::
+
+Um protocolo de hipertensão pode funcionar muito bem num ensaio clínico e mudar pouco a vida de uma província. Basta que poucas unidades o usem, que poucas pessoas o recebam, ou que tudo pare quando o apoio externo termina. O RE-AIM ([Glasgow, Vogt e Boles, 1999](https://doi.org/10.2105/AJPH.89.9.1322)) olha para tudo isto em conjunto: **Reach** (alcance), **Effectiveness** (efectividade), **Adoption** (adopção), **Implementation** (implementação) e **Maintenance** (manutenção).
+
+::: {.callout-note appearance="simple"}
+Os exemplos desta página são ilustrativos. O Centro de Saúde da Nova Esperança, no Lubango, as pessoas e os números foram inventados para ensinar os conceitos.
+:::
+
+## O impacto multiplica-se {#sec-reaim-simulador}
+
+Cada etapa só actua sobre o que restou da etapa anterior. Mova os controlos e veja o que acontece ao impacto final.
+
+```{=html}
+<div class="ra-sim" id="ra-sim">
+  <div class="ra-sim-topo">
+    <div class="ra-resultado" aria-live="polite">
+      <p class="ra-resultado-rotulo">Impacto na população</p>
+      <p class="ra-resultado-valor" id="ra-valor"></p>
+      <p class="ra-resultado-frase" id="ra-frase"></p>
+    </div>
+    <div class="ra-cenarios">
+      <p>Experimente um cenário:</p>
+      <div role="group" aria-label="Cenários do simulador">
+        <button type="button" data-cenario="guia">Tudo em 50%</button>
+        <button type="button" data-cenario="efectividade">Só melhorar a efectividade</button>
+        <button type="button" data-cenario="setenta">Melhorar tudo um pouco</button>
+        <button type="button" data-cenario="ideal">Situação ideal</button>
+      </div>
+    </div>
+  </div>
+  <div class="ra-linhas" id="ra-linhas"></div>
+  <p class="ra-leitura" id="ra-leitura"></p>
+</div>
+```
+
+Experimente comparar os cenários. Com tudo em 50%, levar a efectividade a 100% apenas duplica um impacto muito pequeno. Subir todos os factores para 70% produz mais do que isso.
+
+::: {.ra-nota}
+**Como ler:** é um experimento mental, não uma previsão. Na vida real, as etapas influenciam-se umas às outras e os valores não são independentes. A sequência e o exemplo com tudo em 50% vêm da Figura 1.4 do guia de PRISM e RE-AIM (2023), onde a adopção aparece em duas etapas.
+:::
+
+## As cinco dimensões {#sec-reaim-dimensoes}
+
+::: {.panel-tabset .ra-dimensoes}
+
+### R · Alcance
+
+**Quem deveria beneficiar e quem de facto participa?**
+
+[Nível: pessoa]{.ra-nivel-etiqueta}
+
+**O que é.** O número, a proporção e a representatividade das pessoas elegíveis que recebem a intervenção, e os motivos.
+
+**O que relatar.**
+
+- Percentagem de elegíveis que participam, com um denominador válido
+- Características de quem participa e de quem não participa
+- Critérios de exclusão
+- Explicações qualitativas para estes resultados
+
+::: {.callout-exemplo}
+<div class="titulo">Na Nova Esperança</div>
+*Em Março, a unidade atendeu 400 adultos e mediu a tensão arterial a 240: um alcance de 60%. Mas o Sr. Domingos, taxista de 47 anos, só entra na unidade para levar os filhos à vacina, e ninguém mede a tensão de quem acompanha. Ele tem 168/102 mmHg e não sabe. Sem contar quem nunca foi medido, a unidade não vê este homem.*
+:::
+
+### E · Efectividade
+
+**Qual é o principal benefício e qual é a probabilidade de efeitos negativos?**
+
+[Nível: pessoa]{.ra-nivel-etiqueta}
+
+**O que é.** O efeito nos resultados pretendidos, incluindo efeitos negativos, diferenças entre grupos, qualidade de vida e resultados económicos, e os motivos.
+
+**O que relatar.**
+
+- Resultados principais e secundários
+- Resultados mais amplos, como qualidade de vida e consequências não intencionais
+- Perdas de seguimento
+- Resultados por subgrupo
+- Explicações qualitativas para estes resultados
+
+::: {.callout-exemplo}
+<div class="titulo">Na Nova Esperança</div>
+*A Dona Teresa, 58 anos, vendedora no mercado, passou de 164/98 para 132/84 mmHg em seis meses. Parece um sucesso, mas ela tem tonturas ao levantar-se e passou a faltar à banca. Na unidade, 52% das mulheres e só 31% dos homens em tratamento estão controlados. O número médio não contaria nenhuma destas histórias.*
+:::
+
+### A · Adopção
+
+**Onde é aplicada e quem a aplica?**
+
+[Nível: unidade e equipa]{.ra-nivel-etiqueta}
+
+**O que é.** O número, a proporção e a representatividade das unidades e dos profissionais que começam a oferecer a intervenção, e os motivos.
+
+**O que relatar.**
+
+- Percentagem de unidades e profissionais abordados que aceitaram
+- Características de quem aceitou e de quem não aceitou, em cada nível
+- Critérios de exclusão
+- Explicações qualitativas para estes resultados
+
+::: {.callout-exemplo}
+<div class="titulo">Na província</div>
+*Das 12 unidades convidadas na Huíla, 8 começaram: 67% de adopção. As 4 que ficaram de fora são as mais distantes, duas delas sem enfermeiro fixo. O resultado parece razoável, mas o PEN está a começar onde já havia mais condições. Saber porque estas 4 não começaram vale tanto como celebrar as outras 8.*
+:::
+
+### I · Implementação
+
+**Como é feita, como foi adaptada, quanto custou e porque deu este resultado?**
+
+[Nível: unidade e equipa]{.ra-nivel-etiqueta}
+
+**O que é.** A fidelidade ao que estava previsto, as adaptações feitas, os custos e as razões dos resultados.
+
+**O que relatar.**
+
+- Consistência na realização da intervenção, entre profissionais e unidades
+- Adaptações: tipo, momento e motivo
+- Custos de implementação
+- Explicações qualitativas para estes resultados
+
+::: {.callout-exemplo}
+<div class="titulo">Na Nova Esperança</div>
+*A enfermeira Marta conhece o fluxograma, mas em 3 de cada 10 consultas com tensão alta não ajusta o tratamento: a sala de espera está cheia. A equipa decide que o técnico de farmácia passa a medir a tensão antes da consulta. Isso é uma adaptação, e deve ficar registada: o que mudou, porquê e por quem.*
+:::
+
+### M · Manutenção
+
+**Por quanto tempo duraram os resultados e a oferta?**
+
+[Nível: pessoa e unidade]{.ra-nivel-etiqueta}
+
+**O que é.** Durante quanto tempo os resultados se mantêm nas pessoas e até que ponto a intervenção se torna parte da rotina do serviço. O guia indica pelo menos um ano e, de preferência, dois ou mais.
+
+**O que relatar.**
+
+- Resultados depois do fim do projecto financiado
+- Pessoa: efectividade a longo prazo, perdas de seguimento e diferenças de efeito
+- Serviço: continuidade da oferta e diferenças entre profissionais e unidades
+- Adaptações feitas depois do fim do projecto
+- Explicações qualitativas, incluindo o alinhamento com os objectivos do serviço
+
+::: {.callout-exemplo}
+<div class="titulo">Dois anos depois</div>
+*O apoio externo terminou e a enfermeira Marta foi transferida. Como duas colegas tinham sido formadas e o fluxograma estava afixado, a consulta continua. Mas a amlodipina faltou durante 41 dias, e a Dona Teresa voltou a 158/96 mmHg. A unidade manteve a oferta; a pessoa não manteve o benefício. A manutenção tem de ser olhada nos dois níveis.*
+:::
+
+:::
+
+## Contamos pessoas ou serviços? {#sec-reaim-niveis}
+
+Confundir alcance e adopção é um erro frequente, segundo o guia. A diferença está em quem aparece no denominador.
+
+::: {.ra-niveis}
+
+::: {.ra-nivel}
+**Contamos pessoas**
+
+[Alcance]{.ra-chip}
+[Efectividade]{.ra-chip}
+:::
+
+::: {.ra-nivel .ra-nivel-ambos}
+**Contamos os dois**
+
+[Manutenção]{.ra-chip}
+:::
+
+::: {.ra-nivel}
+**Contamos serviços e profissionais**
+
+[Adopção]{.ra-chip}
+[Implementação]{.ra-chip}
+:::
+
+:::
+
+### Teste: que dimensão está a ser medida?
+
+```{=html}
+<div class="ra-teste" id="ra-teste"></div>
+```
+
+## Quem ficou de fora {#sec-reaim-equidade}
+
+O mesmo número pode esconder realidades muito diferentes. Nos dois cenários abaixo, a unidade alcança 60 de 100 pessoas elegíveis.
+
+```{=html}
+<div class="ra-pessoas" id="ra-pessoas">
+  <div class="ra-pessoas-botoes" role="group" aria-label="Cenário de alcance">
+    <button type="button" data-distribuicao="representativo" aria-pressed="true">Alcance representativo</button>
+    <button type="button" data-distribuicao="concentrado" aria-pressed="false">Alcance concentrado</button>
+  </div>
+  <div class="ra-grupos" id="ra-grupos"></div>
+  <p class="ra-legenda"><span class="ra-ponto ra-ponto-sim"></span> Alcançada <span class="ra-ponto"></span> Não alcançada</p>
+  <p class="ra-leitura" id="ra-pessoas-leitura" aria-live="polite"></p>
+</div>
+```
+
+Por isso, o alcance e a adopção nunca se relatam só com uma percentagem. É preciso comparar quem entrou com quem ficou de fora. O guia sugere olhar para além dos dados demográficos: determinantes sociais, literacia em saúde e digital, riscos para a saúde e local de residência.
+
+## A cascata: onde o impacto se perde {#sec-reaim-cascata}
+
+O guia (Figura 1.5) organiza as dimensões como uma cascata. Em cada passagem pode perder-se impacto, e em cada uma há algo que se pode fazer. A sequência é diferente da ordem das letras da sigla: **RE-AIM é um nome, não um percurso**.
+
+::: {.ra-cascata}
+
+::: {.ra-alavanca}
+**Antes de começar.** Adaptar ao contexto, envolver líderes e partes interessadas e ter em conta a história local.
+
+*No PEN: ouvir a direcção provincial antes de escolher as unidades, e não depois.*
+:::
+
+::: {.ra-etapa}
+**Adopção.** Número e tipo de unidades que participam.
+:::
+
+::: {.ra-alavanca}
+**Para não perder aqui.** Tornar a implementação simples, de baixo custo e pouca sobrecarga, com apoio.
+
+*No PEN: um fluxograma de uma página e um número para tirar dúvidas, em vez de um manual extenso.*
+:::
+
+::: {.ra-etapa}
+**Implementação.** Oferecer a intervenção e os recursos de forma consistente e com qualidade.
+:::
+
+::: {.ra-alavanca}
+**Para não perder aqui.** Usar canais de divulgação múltiplos, diversos e adaptados, e ampliar o acesso.
+
+*No PEN: medir a tensão também de quem acompanha outra pessoa à unidade, e ir ao mercado e à praça de táxis.*
+:::
+
+::: {.ra-etapa}
+**Alcance.** Número e tipo de pessoas que participam, com atenção à equidade.
+:::
+
+::: {.ra-alavanca}
+**Para não perder aqui.** Usar recursos e estratégias baseados em evidência e fazer adaptações com base em dados.
+
+*No PEN: rever a cada trimestre quem continua fora da meta e ajustar o que a equipa está a fazer.*
+:::
+
+::: {.ra-etapa}
+**Efectividade.** Número e tipo de pessoas que beneficiam e em que resultados, com atenção à equidade.
+:::
+
+::: {.ra-alavanca}
+**Para não perder aqui.** Dar *feedback* contínuo, apoio e recursos à implementação.
+
+*No PEN: devolver os dados à equipa e garantir o abastecimento de medicamentos depois do fim do projecto.*
+:::
+
+::: {.ra-etapa}
+**Manutenção.** Implementação e efectividade a longo prazo.
+:::
+
+:::
+
+### Dois tipos de lacuna
+
+O guia chama *gaps* a estas perdas, mas elas não são as lacunas de cuidado de @sec-lacunas. São coisas diferentes, e é importante não as misturar. Nesta página, chamamos-lhes **perdas de implementação**.
+
+| | Lacuna de cuidado | Perda de implementação |
+|:---|:-----|:-----|
+| **O que é** | A diferença entre o cuidado recomendado e o cuidado recebido por uma pessoa elegível | A parte da intervenção que deixa de chegar, de ser feita ou de durar |
+| **Onde se olha** | No percurso de cuidados da pessoa | Na cascata do RE-AIM |
+| **Pergunta** | Esta pessoa recebeu o que devia? | O protocolo chegou, foi usado e manteve-se? |
+| **Exemplo** | A Dona Teresa está com 158/96 mmHg e o tratamento não foi ajustado | 4 das 12 unidades não começaram o protocolo |
+
+: Lacuna de cuidado e perda de implementação {.tabela-compacta}
+
+As duas ligam-se. A lacuna de cuidado mostra **o que está a faltar à pessoa**. A perda de implementação ajuda a explicar **porque está a faltar**. Por exemplo, muitas pessoas podem estar fora da meta (lacuna de cuidado) porque a unidade nunca adoptou o fluxograma de intensificação (perda de implementação).
+
+## O RE-AIM em cada fase {#sec-reaim-fases}
+
+O RE-AIM nasceu como modelo de avaliação, mas pode ser usado do início ao fim. O guia faz as mesmas perguntas em três momentos e muda apenas o tempo verbal: o que é provável, o que está a acontecer e o que vai continuar.
+
+| Dimensão | Planeamento: *é provável que...* | Implementação: *até que ponto...* | Sustentação: *é provável que, no futuro...* |
+|:---|:-----|:-----|:-----|
+| **Adopção** | ...muitas unidades adoptem, incluindo as com menos recursos? | ...está a ser adoptado por muitas unidades, incluindo as com menos recursos? | ...novas unidades o adoptem, incluindo as com menos recursos? |
+| **Implementação** | ...a equipa faça com qualidade o essencial, com custos viáveis? | ...a equipa está a fazer o essencial com qualidade, com custos viáveis? | ...os custos continuem viáveis e se possa adaptar o que for preciso? |
+| **Alcance** | ...chegue a muitas pessoas, de forma equitativa? | ...está a chegar a muitas pessoas, de forma equitativa? | ...continue a chegar a muitas pessoas, de forma equitativa? |
+| **Efectividade** | ...seja efectivo, também para quem tem menos condições? | ...está a ser efectivo, também para quem tem menos condições? | ...continue efectivo, também para quem tem menos condições? |
+| **Manutenção** | ...a oferta continue e o efeito dure pelo menos 1 a 2 anos? | ...a oferta possa continuar e o efeito possa durar? | ...a oferta e o efeito se mantenham nas unidades participantes? |
+
+: Perguntas do RE-AIM por fase, adaptadas dos Anexos 4 a 6 do guia {.tabela-compacta}
+
+## Erros a evitar {#sec-reaim-erros}
+
+O guia reúne as lições de mais de duas décadas de uso:
+
+- **Relatar só algumas dimensões.** Alcance, efectividade e implementação aparecem muito mais do que adopção e manutenção.
+- **Esquecer a representatividade.** Poucos trabalhos dizem quem ficou de fora no alcance e na adopção.
+- **Confundir alcance com adopção.** Alcance conta pessoas; adopção conta unidades e profissionais.
+- **Achar que serve só para avaliar no fim.** Também serve para planear e para corrigir o percurso, e não se aplica só à investigação de disseminação.
+
+```{=html}
+<script src="infografico/reaim.js"></script>
+```
+
+## Referências {.unnumbered}
+
+- Glasgow RE, Vogt TM, Boles SM. Evaluating the public health impact of health promotion interventions: the RE-AIM framework. *Am J Public Health*. 1999;89(9):1322-7. <https://doi.org/10.2105/AJPH.89.9.1322>
+- The Colorado Implementation Science Center for Cancer Control. *Iterative PRISM and RE-AIM guidebook* (versão de trabalho). 2023 (ficheiro iprism-and-reaim-guidebook_wip.pdf). Secções 1.3, 1.6 e 2; Tabelas 1.A, 1.B e 1.C; Figuras 1.4 e 1.5; Anexos 4 a 6.
+- Glasgow RE, Harden SM, Gaglio B, et al. RE-AIM planning and evaluation framework: adapting to new science and practice with a 20-year review. *Front Public Health*. 2019;7:64. <https://doi.org/10.3389/fpubh.2019.00064>
+- Holtrop JS, Estabrooks PA, Gaglio B, et al. Understanding and applying the RE-AIM framework: clarifications and resources. *J Clin Transl Sci*. 2021;5(1):e126. <https://doi.org/10.1017/cts.2021.789>
+- Sítio de referência: [re-aim.org](https://re-aim.org/)
