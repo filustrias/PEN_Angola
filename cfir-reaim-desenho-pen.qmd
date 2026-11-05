@@ -4,22 +4,22 @@
 Elementos a ter em conta na implementação do WHO PEN em Angola
 :::
 
-## O que é a "inovação"
+## O que é uma "inovação"
 
-No [CFIR](https://cfirguide.org/), inovação é simplesmente *a coisa que se implementa*, vista do ponto de vista de quem a vai adoptar. Não precisa de ser nova no mundo; basta ser nova para a unidade sanitária.
+Em saúde, uma inovação é qualquer ferramenta, instrumento, tecnologia ou formação introduzida num contexto onde nunca tinha sido introduzida. Pode já ter sido implementada noutro lugar: é uma inovação no contexto específico onde vai ser implementada. Por isso, a mesma ferramenta pode ser rotina numa unidade sanitária e inovação na unidade vizinha.
 
-O ponto decisivo é este: **a inovação não é o manual do PEN.** É o pacote concreto que vai funcionar nas unidades de Angola, descrito com precisão suficiente para que outra pessoa o reproduza. O CFIR distingue, dentro de qualquer inovação, um **núcleo** (*core components*) e uma **periferia adaptável** (*adaptable periphery*).
+Dentro de qualquer inovação distinguem-se duas partes: o **núcleo** (*core components*), com os elementos que devem estar presentes, e a **periferia adaptável** (*adaptable periphery*), com os elementos que podem mudar conforme o contexto.
 
 ### Núcleo e periferia do PEN Angola
 
 ::: {.columns}
 ::: {.column width="48%"}
-**Núcleo — não negociável**
+**Núcleo — deve estar presente**
 
 - Protocolos clínicos: hipertensão, diabetes tipo 2, risco cardiovascular total, asma/DPOC
 - Lista de medicamentos e equipamentos essenciais
-- Consulta pelo enfermeiro, com critérios de referência
-- Registo de doentes crónicos com seguimento programado
+- Cuidado prestado por equipa multiprofissional
+- Cadastramento de utentes, registos individuais de encontros clínicos e acompanhamento longitudinal
 :::
 ::: {.column width="4%"}
 :::
@@ -36,7 +36,7 @@ O ponto decisivo é este: **a inovação não é o manual do PEN.** É o pacote 
 
 ::: {.callout-exemplo}
 <div class="titulo">Porque importa</div>
-*Sem esta distinção, cada província vai "adaptar" o PEN até ele deixar de ser o PEN — e depois não saberemos o que foi avaliado nem o que foi implementado.*
+*O WHO PEN apresenta flexibilidade para que seja adaptado de formas distintas a depender de cada contexto.*
 :::
 
 ## Como o CFIR refina a inovação
