@@ -25,6 +25,7 @@ book:
     - part: "Evidência"
       chapters:
         - panorama-literatura-pen.qmd
+        - exploracao-guias-materiais.qmd
     - part: "Enquadramentos de implementação"
       chapters:
         - reaim-prism-cfir-pen-angola.qmd
