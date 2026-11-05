@@ -1,0 +1,324 @@
+/*-- scss:rules --*/
+// Componentes da página CFIR (cfir.qmd)
+.cf, .cf-resultados {
+  font-family: $font-family-sans-serif;
+  p { hyphens: none; }
+}
+.cf {
+  container-type: inline-size;
+  margin: 1.25rem 0 1.5rem;
+
+  button {
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--bs-body-color);
+    &:focus-visible { outline: 3px solid var(--pen-accent); outline-offset: 2px; }
+  }
+}
+
+// Mapa: inovação entra pela esquerda; contextos encaixados; processo atravessa tudo
+.cf-mapa {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
+  gap: .6rem;
+}
+.cf-dominio {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: .55rem .75rem;
+  text-align: left;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  line-height: 1.25;
+  &:hover { background: var(--pen-accent-bg); }
+  strong { display: block; font-size: 1rem; color: var(--pen-h1); }
+  span { display: block; font-size: .82rem; color: var(--pen-muted); }
+  small { display: block; margin-top: .15rem; font-size: .75rem; color: var(--pen-muted); }
+  &[aria-pressed="true"] {
+    background: var(--pen-accent-solid);
+    border-color: var(--pen-accent-solid);
+    strong, span, small { color: var(--pen-accent-solid-ink); }
+  }
+}
+.cf-camada {
+  border: 1.5px solid var(--pen-accent);
+  border-radius: 12px;
+  padding: .4rem;
+}
+.cf-interno { margin-top: .4rem; }
+.cf-individuos { margin-top: .4rem; }
+.cf-externo { background: var(--pen-accent-bg); grid-column: 2; grid-row: 1; }
+.cf-interno, .cf-individuos { background: var(--bs-body-bg); }
+.cf-mapa .cf-inovacao {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: stretch;
+  border: 1.5px solid var(--pen-accent);
+  position: relative;
+  &::after {
+    content: "→";
+    position: absolute;
+    right: .6rem;
+    bottom: .4rem;
+    font-size: 1.4rem;
+    color: var(--pen-accent);
+  }
+  &[aria-pressed="true"]::after { color: var(--pen-accent-solid-ink); }
+}
+.cf-mapa .cf-processo {
+  grid-column: 1 / -1;
+  border: 1.5px dashed var(--pen-accent);
+}
+
+// Procura
+.cf-busca {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem .75rem;
+  margin: 1rem 0 .75rem;
+  label { margin: 0; font-size: .85rem; font-weight: 600; }
+  input {
+    flex: 1 1 220px;
+    min-height: 40px;
+    padding: .3rem .7rem;
+    border: 1px solid var(--pen-rule);
+    border-radius: 6px;
+    background: transparent;
+    color: var(--bs-body-color);
+    font-size: .9rem;
+    font-family: inherit;
+    &:focus { outline: 2px solid var(--pen-accent); outline-offset: 1px; }
+  }
+  button {
+    min-height: 40px;
+    padding: .35rem .8rem;
+    background: transparent;
+    border: 1px solid var(--pen-rule);
+    border-radius: 6px;
+    font-size: .85rem;
+    font-weight: 600;
+    &:hover { border-color: var(--pen-accent); }
+  }
+}
+.cf-dominio-descricao { margin: 0 0 .5rem; font-size: .95rem; color: var(--pen-muted); }
+.cf-grupo-titulo {
+  margin: .75rem 0 .35rem;
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--pen-h3);
+}
+.cf-grupo { display: flex; flex-wrap: wrap; gap: .35rem; }
+.cf-chip {
+  min-height: 36px;
+  padding: .25rem .7rem;
+  background: transparent;
+  border: 1px solid var(--pen-rule);
+  border-radius: 999px;
+  font-size: .85rem;
+  font-weight: 600;
+  &:hover { border-color: var(--pen-accent); }
+  em { font-style: normal; font-weight: 400; font-size: .75rem; color: var(--pen-muted); margin-left: .25rem; }
+  &[aria-pressed="true"] {
+    background: var(--pen-accent-solid);
+    border-color: var(--pen-accent-solid);
+    color: var(--pen-accent-solid-ink);
+    em { color: var(--pen-accent-solid-ink); }
+  }
+}
+.cf-chip-sub {
+  font-weight: 400;
+  border-style: dashed;
+  font-size: .8rem;
+}
+
+// Painel do constructo
+.cf-painel {
+  margin-top: 1rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--pen-rule);
+  border-top: 4px solid var(--pen-accent);
+  border-radius: 8px;
+  h3 { margin: 0; font-size: 1.3rem; color: var(--pen-h1); }
+}
+.cf-painel-dominio {
+  margin: 0 0 .15rem;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--pen-muted);
+}
+.cf-en { margin: 0; font-size: .82rem; font-style: italic; color: var(--pen-muted); }
+.cf-def { margin: .6rem 0 .75rem; font-size: .98rem; }
+.cf-pergunta {
+  padding: .65rem .85rem;
+  background: var(--pen-accent-bg);
+  border-radius: 6px;
+  b { display: block; font-size: .76rem; letter-spacing: .04em; text-transform: uppercase; color: var(--pen-h3); margin-bottom: .15rem; }
+  p { margin: 0; font-size: 1rem; }
+}
+.cf-passos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  margin-top: .85rem;
+  span { font-size: .8rem; color: var(--pen-muted); font-variant-numeric: tabular-nums; }
+  button {
+    min-height: 40px;
+    padding: .3rem .8rem;
+    background: transparent;
+    border: 1px solid var(--pen-rule);
+    border-radius: 6px;
+    color: var(--pen-accent);
+    font-size: .85rem;
+    font-weight: 600;
+    &:disabled { color: var(--pen-muted); opacity: .5; cursor: default; }
+  }
+}
+.cf-tudo {
+  h3 { margin-top: 1.5rem; font-size: 1.15rem; color: var(--pen-accent); }
+  table { font-size: .85rem; }
+}
+.cf-td-sub { padding-left: 1.5rem !important; }
+
+// Quem é quem
+.cf-pessoas-botoes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .4rem;
+  button {
+    padding: .5rem .7rem;
+    text-align: left;
+    background: transparent;
+    border: 1px solid var(--pen-rule);
+    border-radius: 8px;
+    line-height: 1.2;
+    &:hover { border-color: var(--pen-accent); }
+    strong { display: block; font-size: .92rem; color: var(--pen-h1); }
+    span { display: block; font-size: .78rem; color: var(--pen-muted); }
+    &[aria-pressed="true"] {
+      background: var(--pen-accent-solid);
+      border-color: var(--pen-accent-solid);
+      strong, span { color: var(--pen-accent-solid-ink); }
+    }
+  }
+}
+.cf-pessoa { margin-top: 1rem; }
+.cf-pessoa-topo { margin: 0 0 .6rem; font-size: 1rem; }
+.cf-caracteristicas {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .6rem;
+  > div {
+    padding: .7rem .8rem;
+    border: 1px solid var(--pen-rule);
+    border-radius: 8px;
+  }
+  h4 { margin: 0; font-size: .95rem; font-weight: 700; color: var(--pen-h3); text-transform: none; letter-spacing: 0; }
+  p { margin: 0; font-size: .88rem; line-height: 1.35; }
+  .cf-perg { margin-bottom: .35rem; font-size: .76rem; color: var(--pen-muted); }
+}
+
+// Da barreira à estratégia
+.cf-casos-botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  button {
+    min-height: 40px;
+    padding: .3rem .75rem;
+    background: transparent;
+    border: 1px solid var(--pen-rule);
+    border-radius: 6px;
+    font-size: .85rem;
+    font-weight: 600;
+    text-align: left;
+    &:hover { border-color: var(--pen-accent); }
+    &[aria-pressed="true"] {
+      background: var(--pen-accent-solid);
+      border-color: var(--pen-accent-solid);
+      color: var(--pen-accent-solid-ink);
+    }
+  }
+}
+.cf-caso {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .6rem;
+  margin-top: 1rem;
+}
+.cf-caso-passo {
+  padding: .75rem .85rem;
+  border: 1px solid var(--pen-rule);
+  border-radius: 8px;
+  h4 { margin: 0 0 .3rem; font-size: .76rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--pen-muted); }
+  p { margin: 0; font-size: .92rem; line-height: 1.4; }
+}
+.cf-caso-tentador {
+  background: var(--pen-gap-bg);
+  border-color: var(--pen-gap-line);
+  h4, p { color: var(--pen-gap-ink); }
+}
+.cf-caso-resposta {
+  background: var(--pen-accent-bg);
+  border-color: var(--pen-accent);
+  h4 { color: var(--pen-h3); }
+}
+.cf-caso-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  margin-top: .5rem !important;
+  span {
+    padding: .05rem .5rem;
+    border: 1px solid var(--pen-accent);
+    border-radius: 999px;
+    font-size: .74rem;
+    color: var(--pen-accent);
+  }
+}
+
+// Não funcionou ou não foi implementado?
+.cf-resultados {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.3fr) minmax(0, 1.3fr);
+  gap: .4rem;
+  margin: 1.25rem 0 1.75rem;
+  p { margin: 0; font-size: .92rem; line-height: 1.4; }
+}
+.cf-eixo { align-self: end; padding: .25rem .4rem; font-size: .88rem; p { font-size: .88rem; } }
+.cf-eixo-linha { align-self: center; }
+.cf-celula {
+  padding: .75rem .85rem;
+  background: var(--pen-accent-bg);
+  border: 1px solid var(--pen-accent);
+  border-radius: 8px;
+}
+.cf-celula-alerta {
+  background: var(--pen-gap-bg);
+  border-color: var(--pen-gap-line);
+  p, strong { color: var(--pen-gap-ink); }
+}
+
+@container (max-width: 620px) {
+  .cf-mapa { grid-template-columns: minmax(0, 1fr); }
+  .cf-mapa .cf-inovacao { grid-row: auto; grid-column: 1; }
+  .cf-externo { grid-row: auto; grid-column: 1; }
+  .cf-pessoas-botoes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cf-caracteristicas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cf-caso { grid-template-columns: minmax(0, 1fr); }
+  .cf-painel { padding: .9rem; }
+}
+@media (max-width: 620px) {
+  .cf-resultados {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    .cf-eixo-canto { display: none; }
+    .cf-eixo-linha { grid-column: 1 / -1; margin-top: .4rem; }
+  }
+}

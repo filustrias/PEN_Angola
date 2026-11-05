@@ -1,0 +1,135 @@
+# CFIR: o que ajuda ou atrapalha {#sec-cfir}
+
+::: {.chapter-subtitle}
+Um vocabulário comum para encontrar barreiras e facilitadores antes, durante e depois da implementação
+:::
+
+O RE-AIM diz **o que aconteceu**. O CFIR (*Consolidated Framework for Implementation Research*; [Damschroder et al., 2009](https://doi.org/10.1186/1748-5908-4-50), actualizado em [2022](https://doi.org/10.1186/s13012-022-01245-0)) ajuda a procurar **o que, no contexto, pode explicar esse resultado**. Não é uma lista de tarefas nem um questionário: é um mapa com 5 domínios, 48 constructos e 19 subconstructos, para que todos falem das mesmas coisas com as mesmas palavras.
+
+::: {.callout-note appearance="simple"}
+As definições são uma tradução de trabalho da tabela *CFIR Constructs and Definitions* (versão de 13 de Novembro de 2025), ainda sem validação. As perguntas, as pessoas e os casos, incluindo o Centro de Saúde da Nova Esperança, foram escritos para ensinar os conceitos e não descrevem situações reais.
+:::
+
+## O mapa {#sec-cfir-mapa}
+
+A inovação entra num contexto externo e num contexto interno, onde estão os indivíduos. O processo de implementação atravessa tudo. **Escolha um domínio e depois um constructo**, ou procure por uma palavra.
+
+```{=html}
+<div class="cf" id="cf-mapa-raiz">
+  <div class="cf-mapa">
+    <button type="button" class="cf-dominio cf-inovacao" data-dominio="inovacao"></button>
+    <div class="cf-camada cf-externo">
+      <button type="button" class="cf-dominio" data-dominio="externo"></button>
+      <div class="cf-camada cf-interno">
+        <button type="button" class="cf-dominio" data-dominio="interno"></button>
+        <div class="cf-camada cf-individuos">
+          <button type="button" class="cf-dominio" data-dominio="individuos"></button>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="cf-dominio cf-processo" data-dominio="processo"></button>
+  </div>
+
+  <div class="cf-busca">
+    <label for="cf-procurar">Procurar um constructo</label>
+    <input type="search" id="cf-procurar" placeholder="Por exemplo: medicamentos, liderança, tempo" autocomplete="off">
+    <button type="button" id="cf-ver-tudo" aria-pressed="false">Ver lista completa</button>
+  </div>
+
+  <div id="cf-lista-area">
+    <p class="cf-dominio-descricao" id="cf-descricao"></p>
+    <div class="cf-chips" id="cf-chips"></div>
+    <section class="cf-painel" id="cf-painel" aria-live="polite"></section>
+  </div>
+  <div class="cf-tudo" id="cf-tudo" hidden></div>
+</div>
+```
+
+## Quem é quem {#sec-cfir-pessoas}
+
+O domínio Indivíduos cruza **papéis** com **características**. A mesma pergunta muda de resposta conforme a pessoa: de que precisa, o que sabe fazer, o que pode fazer e o que quer fazer?
+
+```{=html}
+<div class="cf" id="cf-pessoas">
+  <div class="cf-pessoas-botoes" id="cf-pessoas-botoes" role="group" aria-label="Escolha uma pessoa"></div>
+  <section class="cf-pessoa" id="cf-pessoa" aria-live="polite"></section>
+</div>
+```
+
+O CFIR lista ainda outros papéis: responsáveis pela implementação, membros da equipa de implementação e outro apoio à implementação. Estão todos no mapa acima.
+
+## Da barreira à estratégia {#sec-cfir-estrategias}
+
+Nomear bem a barreira muda a resposta. Se a causa estiver errada, a estratégia também estará. Escolha um problema.
+
+```{=html}
+<div class="cf" id="cf-casos">
+  <div class="cf-casos-botoes" id="cf-casos-botoes" role="group" aria-label="Escolha um problema"></div>
+  <section class="cf-caso" id="cf-caso" aria-live="polite"></section>
+</div>
+```
+
+::: {.ra-nota}
+**Como ler:** os casos são ilustrativos e as causas teriam de ser confirmadas em cada unidade. Para escolher estratégias com mais método, existe a ferramenta [CFIR–ERIC](https://cfirguide.org/choosing-strategies/) ([Waltz et al., 2019](https://doi.org/10.1186/s13012-019-0892-4)).
+:::
+
+## Não funcionou ou não foi implementado? {#sec-cfir-resultados}
+
+O [adendo do CFIR sobre resultados](https://doi.org/10.1186/s13012-021-01181-5) separa dois tipos de resultado: os da **implementação** (a intervenção foi adoptada e feita?) e os da **inovação** (as pessoas melhoraram?). Cruzá-los evita conclusões erradas.
+
+::: {.cf-resultados}
+
+::: {.cf-eixo .cf-eixo-canto}
+:::
+
+::: {.cf-eixo}
+**As pessoas melhoraram**
+:::
+
+::: {.cf-eixo}
+**As pessoas não melhoraram**
+:::
+
+::: {.cf-eixo .cf-eixo-linha}
+**O PEN foi implementado**
+:::
+
+::: {.cf-celula}
+**Parece funcionar.** Perguntar o que sustenta o resultado e o que é preciso para o manter noutras unidades.
+:::
+
+::: {.cf-celula .cf-celula-alerta}
+**Olhar para a inovação.** O protocolo serve estas pessoas? A meta, os fármacos e o contexto estão certos?
+:::
+
+::: {.cf-eixo .cf-eixo-linha}
+**O PEN não foi implementado**
+:::
+
+::: {.cf-celula .cf-celula-alerta}
+**Procurar outra explicação.** Outro programa? Mudança no registo? As pessoas com pior evolução deixaram de aparecer?
+:::
+
+::: {.cf-celula .cf-celula-alerta}
+**Não se pode concluir que o PEN não funciona.** Ele não chegou a ser testado. O que está por resolver é a implementação.
+:::
+
+:::
+
+## Como se aplica {#sec-cfir-aplicacao}
+
+1. **Antes de implementar.** Usar os domínios como guião de visitas, entrevistas e grupos focais com gestores, profissionais e utentes. Não é preciso perguntar tudo: escolhem-se os constructos que mais pesam naquele contexto.
+2. **Ao escolher estratégias.** Ligar cada barreira identificada a uma resposta concreta, como no exercício acima.
+3. **Durante e depois.** Repetir a avaliação para ver o que mudou e para explicar porque umas unidades avançaram e outras não. Os resultados medem-se com o [RE-AIM](reaim.qmd).
+
+## Referências {.unnumbered}
+
+- Damschroder LJ, Aron DC, Keith RE, et al. Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science. *Implement Sci*. 2009;4:50. <https://doi.org/10.1186/1748-5908-4-50>
+- Damschroder LJ, Reardon CM, Widerquist MAO, Lowery J. The updated Consolidated Framework for Implementation Research based on user feedback. *Implement Sci*. 2022;17:75. <https://doi.org/10.1186/s13012-022-01245-0>
+- Damschroder LJ, Reardon CM, Opra Widerquist MA, Lowery J. Conceptualizing outcomes for use with the Consolidated Framework for Implementation Research (CFIR): the CFIR Outcomes Addendum. *Implement Sci*. 2022;17:7. <https://doi.org/10.1186/s13012-021-01181-5>
+- Waltz TJ, Powell BJ, Fernández ME, et al. Choosing implementation strategies to address contextual barriers. *Implement Sci*. 2019;14:42. <https://doi.org/10.1186/s13012-019-0892-4>
+- *CFIR Constructs and Definitions*, versão de 13 de Novembro de 2025 (ficheiro no projecto). Sítio de referência: [cfirguide.org](https://cfirguide.org/)
+
+```{=html}
+<script src="infografico/cfir.js"></script>
+```
