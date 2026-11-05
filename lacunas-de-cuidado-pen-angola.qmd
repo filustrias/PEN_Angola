@@ -229,7 +229,7 @@ O PRISM acrescenta o contexto que explica a variação entre as quatro unidades:
 5. A formação dos profissionais deve ensinar o protocolo como um conjunto de lacunas a fechar, com o benefício absoluto de cada uma — e não como uma lista de regras.
 6. A avaliação intercalar e a proposta de expansão devem apresentar a variação das lacunas ao longo do tempo (RE-AIM) e a explicação contextual (PRISM/CFIR) de onde o fecho foi mais lento.
 
-### Decisões a tomar antes de escrever o protocolo
+### Pontos de atenção durante o processo de desenvolvimento dos protocolos e guias clínicas
 
 - [ ] Confirmar com o Programa Nacional de DNT a lista mínima de indicadores da secção anterior e os dois indicadores a acrescentar para a HTA.
 - [ ] Decidir o indicador de controlo glicémico do piloto (GPJ via O8) em função da disponibilidade real de HbA1c nas 4 unidades.
