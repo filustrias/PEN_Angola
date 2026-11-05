@@ -75,5 +75,18 @@ main h5, main h6 { font-size: 1rem; font-weight: 600; color: var(--pen-muted); }
 // Links para capítulos podem quebrar linha como o texto à volta
 .quarto-xref span { white-space: normal; }
 
-// Endereços longos nas referências não alargam a página no telemóvel
+// Endereços longos não alargam a página no telemóvel
 a.uri { overflow-wrap: anywhere; }
+
+// Tabelas largas rolam dentro do próprio espaço no telemóvel
+@media (max-width: 620px) {
+  main table { display: block; overflow-x: auto; }
+}
+
+// Tabelas com muitas colunas rolam na horizontal também no computador
+main table:has(th:nth-child(7)) {
+  display: block;
+  overflow-x: auto;
+  font-size: .8rem;
+  th, td { min-width: 5.5rem; }
+}
