@@ -1,0 +1,216 @@
+# Ciência da implementação e investigação de implementação {#sec-ciencia-implementacao}
+
+## Porque é necessária investigação sobre implementação
+
+### Intervenções eficazes que não chegam às pessoas
+
+O guia da OMS sobre investigação de implementação parte de uma constatação: existem intervenções eficazes e de baixo custo para muitos dos principais problemas de saúde, mas sabe-se pouco sobre como fazê-las chegar às pessoas na diversidade de sistemas de saúde e de contextos existentes (Peters et al., 2013, p. 8 e 13). Os autores dão dimensão ao problema. Todos os anos morrem mais de 287 000 mulheres por complicações da gravidez e do parto e cerca de 7,6 milhões de crianças, 3,1 milhões das quais recém-nascidas, por doenças evitáveis ou tratáveis com intervenções existentes (p. 15). Segundo os autores, a maioria destas mortes resulta de problemas de implementação (p. 15).
+
+O guia ilustra o argumento com quatro casos.
+
+**A varíola na Nigéria (p. 13–14).** Em 1966, a estratégia de vacinação em massa exigia cobrir cerca de 80% da população e mostrava-se inexequível. Sem vacinas suficientes, William Foege passou a vacinar à volta dos casos e ao longo das rotas de transporte e dos mercados. Esta estratégia de vigilância e contenção interrompeu os surtos no leste da Nigéria em cinco meses, vacinando cerca de 750 000 pessoas numa população de aproximadamente 12 milhões. A vacina era a mesma. O que mudou foi a forma de a implementar. O guia sublinha que não se tratava, em sentido estrito, de investigação, mas que o conhecimento gerado teve grande valor para ela. Muitas das perguntas relevantes surgem de quem está no terreno.
+
+**A cascata da prevenção da transmissão vertical do VIH na Zâmbia (p. 15–16, figura 2).** Entre abril de 2007 e março de 2008, de 14 815 grávidas com teste positivo para o VIH, apenas 581 iniciaram terapêutica antirretroviral, ou seja, menos de 4%. O medicamento era eficaz. As perdas aconteceram em cada passo do percurso.
+
+**Os vales para redes mosquiteiras no Gana (p. 16).** Um esquema que funcionara na Tanzânia falhou no Gana por causa da organização local da produção e da distribuição das redes. O sector informal, que produzia redes localmente, foi ignorado, e as mulheres apresentavam vales que não podiam ser trocados. O factor decisivo estava fora do sistema de saúde.
+
+**O rastreio do cancro do colo do útero em El Salvador (p. 23, tabela 1).** Ciclos de melhoria da qualidade reduziram as amostras insatisfatórias de 1,7% para 0,4% e os tempos de circulação das amostras de 23 e 27 dias para 9 e 11 dias. A proporção de mulheres com citologia positiva seguidas com colposcopia passou de 24% para 100%. O caso confirma o argumento do capítulo anterior (@sec-inovacao): o benefício do teste depende do pacote de acções que o rodeia.
+
+### O hiato entre saber e fazer
+
+A distância entre o conhecimento disponível e a prática corrente recebeu vários nomes.
+
+**O "abismo" da qualidade.** O Institute of Medicine (2001) chamou "abismo" (*chasm*) à distância entre os cuidados que poderiam ser prestados se fossem informados pelo conhecimento científico e os cuidados efectivamente prestados (Colditz, 2012, p. 3).
+
+**O hiato entre saber e fazer (*know-do gap*).** É a expressão adoptada pela OMS a partir da reunião de 2005 sobre tradução do conhecimento em saúde global (Organização Mundial da Saúde, 2006).
+
+**O funil com fugas.** Green e colaboradores representam o percurso da investigação até à prática como um funil com perdas em cada etapa: prioridades de financiamento, revisão por pares, publicação, síntese de evidência, elaboração de recomendações e, por fim, as circunstâncias da prática local (Colditz, 2012, p. 7, figura 1-1).
+
+**Os "17 anos".** A estimativa mais citada é a de Balas e Boren (2000): são precisos 17 anos para que 14% da investigação original chegue a beneficiar os doentes (Colditz, 2012, p. 7). Colditz lembra que o valor depende do campo e do período analisado. Morris, Wooding e Grant (2011) mostraram que as estimativas de desfasamento variam muito conforme os pontos de partida e de chegada escolhidos. O número serve como ilustração da ordem de grandeza, e não como medida precisa.
+
+Colditz dá exemplos de desfasamento. Decorreram cerca de cinquenta anos entre o aperfeiçoamento da citologia de Papanicolaou (1943) e a existência de programas de rastreio em todos os estados norte-americanos (1995). A penicilina, descoberta em 1928, só foi usada em doentes mais de quinze anos depois (p. 7–8). O autor acrescenta uma advertência: a implementação rápida de tecnologias ineficazes ou nocivas também prejudica a saúde das populações, e a celeridade tem de ser equilibrada com a prudência científica (p. 9).
+
+### Desequilíbrio de investimento
+
+Nos Estados Unidos, em 2008, a investigação em serviços de saúde, modelos de cuidados e inovação em serviços recebia cerca de 1,5% do financiamento da investigação biomédica (Colditz, 2012, p. 3 e 5). Numa análise de 1210 artigos de doze revistas de saúde pública, 89% eram investigação básica ou de desenvolvimento e menos de 1% estudavam a difusão (p. 5). O guia da OMS faz a mesma constatação: gastam-se somas muito elevadas em inovações em saúde e muito pouco em saber como usá-las, um défice que afecta sobretudo os países de rendimento baixo e médio (Peters et al., 2013, p. 11).
+
+### A disseminação passiva não basta
+
+Durante décadas presumiu-se que publicar os resultados era suficiente para mudar a prática. A evidência acumulada mostrou que a disseminação passiva, como a publicação de consensos em revistas ou o envio massivo de materiais, produz mudanças pequenas (Colditz, 2012, p. 4). Mittman (2012) descreve a mesma evolução nos cuidados de saúde. Os primeiros estudos testavam a formação contínua e a disseminação de informação, partindo do pressuposto de que a prática clínica depende sobretudo de conhecimento. Os resultados fracos dessas estratégias levaram a estudar estratégias baseadas na influência social, como os líderes de opinião e as visitas educativas (*academic detailing*) (p. 401).
+
+## Definições
+
+### Investigação de implementação segundo a OMS
+
+O guia da OMS reconhece que há confusão de nomenclatura e debate sobre o âmbito do campo (Peters et al., 2013, p. 27). Opta por uma definição deliberadamente simples e ampla, utilizável por diferentes comunidades de investigação e compreensível por profissionais, decisores e público: **a investigação de implementação é a investigação científica sobre questões relativas à implementação** (p. 27).
+
+O guia faz três precisões:
+
+- **Enquadramento disciplinar.** Na saúde, a investigação de implementação é um tipo de investigação em políticas e sistemas de saúde. Ocupa-se de políticas, programas e práticas clínicas e de saúde pública (p. 27).
+- **Intenção.** O objectivo é compreender não só o que funciona e o que não funciona, mas também como e porquê a implementação corre bem ou mal, e testar abordagens para a melhorar (p. 27).
+- **Objecto.** Pode incidir sobre qualquer aspecto da implementação: os factores que a afectam (por exemplo pobreza, isolamento geográfico ou crenças tradicionais), os próprios processos de implementação e os seus resultados (p. 27).
+
+O guia separa também a intervenção da estratégia de implementação. No exemplo da vacinação, a vacina é a intervenção de saúde. As clínicas de proximidade e as listas de verificação de supervisão são estratégias de implementação (p. 28). Esta distinção corresponde à separação entre inovação e estratégia descrita no capítulo anterior.
+
+### Ciência da implementação
+
+Eccles e Mittman (2006), no editorial de lançamento da revista *Implementation Science*, definiram ciência da implementação como o estudo científico dos métodos que promovem a incorporação sistemática dos resultados da investigação e de outras práticas baseadas em evidência na prática corrente, com o fim de melhorar a qualidade e a efectividade dos serviços de saúde. Dearing e Kee (2012) usam uma formulação mais restrita, centrada no processo de difusão: a ciência da implementação estuda o que acontece depois da adopção, sobretudo em contexto organizacional (p. 56).
+
+### Outras definições institucionais
+
+Colditz (2012, p. 3–4) reúne várias definições:
+
+- **Rubenstein e Pugh.** A investigação de implementação apoia a passagem de estratégias eficazes de cuidados e prevenção da base de conhecimento para o uso corrente.
+- **Centers for Disease Control and Prevention.** A investigação de implementação é o estudo sistemático de como um conjunto de actividades e estratégias é usado para integrar com sucesso uma intervenção de saúde pública baseada em evidência num dado contexto.
+- **National Cancer Institute.** É o uso de estratégias para adoptar e integrar intervenções baseadas em evidência e mudar padrões de prática em contextos específicos.
+
+Rabin e Brownson (2012) acrescentam que a investigação de implementação procura compreender os processos e factores associados à integração bem-sucedida de intervenções baseadas em evidência num contexto concreto. Avalia se os componentes essenciais foram transportados com fidelidade e como a intervenção foi adaptada ao contexto local (p. 31).
+
+### Ciência, investigação e prática da implementação
+
+Na literatura, "ciência da implementação" e "investigação de implementação" são frequentemente usados como sinónimos. Este livro distingue três termos:
+
+| Termo | Sentido adoptado neste livro |
+|---|---|
+| **Ciência da implementação** | O campo de conhecimento: teorias, enquadramentos, métodos e evidência acumulada sobre como as inovações são adoptadas, implementadas e mantidas. |
+| **Investigação de implementação** | A actividade de investigação que produz esse conhecimento, num estudo ou projecto concreto. |
+| **Prática da implementação** | O trabalho de implementar uma inovação num serviço ou programa, que pode ou não ser informado pela ciência da implementação e pode ou não gerar investigação. |
+
+Esta distinção permite separar duas perguntas diferentes: se um programa foi bem implementado, e se se produziu conhecimento generalizável sobre como implementá-lo.
+
+### Proliferação terminológica
+
+Rabin e Brownson (2012) apontam a falta de terminologia padronizada como uma das dificuldades do campo (p. 23). Graham e colaboradores identificaram 29 termos diferentes para designar aspectos deste processo em 33 agências financiadoras de nove países (p. 24). Os Estados Unidos usam sobretudo "investigação de disseminação e implementação". O Canadá, o Reino Unido e a OMS usam com frequência "tradução do conhecimento", "investigação de intervenções de saúde populacional" ou "expansão" (*scaling up*) (p. 23). Mittman (2012) acrescenta outras designações para trabalhos semelhantes: "utilização da investigação" na enfermagem, "transferência de tecnologia" nas dependências e "investigação operacional" na saúde global (p. 403).
+
+## O contínuo translacional
+
+### As fases T1 a T4
+
+O roteiro dos National Institutes of Health organizou a investigação em fases de tradução (Colditz, 2012, p. 10–11, figura 1-2; Rabin e Brownson, 2012, p. 30–31):
+
+| Fase | Passagem | Tipo de conhecimento produzido |
+|---|---|---|
+| **T1** | Da ciência básica à aplicação em seres humanos | Conhecimento sobre uma intervenção possível |
+| **T2** | Da investigação clínica à eficácia demonstrada | Conhecimento sobre o que funciona em condições óptimas |
+| **T3** | Da eficácia à prática: efectividade, disseminação e implementação | Conhecimento sobre o que funciona em condições reais |
+| **T4** | Da prática à população | Conhecimento sobre resultados em saúde à escala populacional |
+
+A distinção entre **eficácia** e **efectividade** é central para o resto do livro. A investigação de eficácia avalia o impacto de uma intervenção em condições óptimas e controladas e privilegia a validade interna. A investigação de efectividade avalia o impacto de uma intervenção de eficácia demonstrada em condições reais e privilegia a validade externa (Rabin e Brownson, 2012, p. 30–31). A ciência da implementação situa-se sobretudo em T3 e T4. Algumas classificações mais antigas, com apenas duas fases, incluem-na em T2 (p. 31).
+
+### O contínuo da investigação de implementação
+
+O guia da OMS propõe uma representação diferente. Em vez de fases sucessivas, propõe um contínuo que vai de investigação **leve em implementação** a investigação **pesada em implementação** (Peters et al., 2013, p. 31, figura 3). A figura tem cinco posições:
+
+| Posição | Pergunta e contexto | Exemplos |
+|---|---|---|
+| **1. Implementação não relevante** | Ciência básica ou desenvolvimento de produto. Contexto controlado. | Ensaios de fase I e II. |
+| **2. Relevante mas não considerada** | Contexto controlado, população seleccionada, factores de implementação fixos ou ignorados. | Estudos de eficácia; ensaios de fase III. |
+| **3. Relevante mas com efeitos reduzidos** | Contexto real, intervenção parcialmente controlada. A estratégia é descrita, mas é única e os seus efeitos são controlados, por exemplo como confundidores. | Ensaios pragmáticos; estudos quase-experimentais com áreas de intervenção e de comparação. |
+| **4. Implementação estudada como factor contributivo** | Contexto e população reais. Uma ou mais estratégias estudadas. As variáveis de implementação podem ser variáveis independentes. | Ensaios híbridos de efectividade-implementação; investigação participativa. |
+| **5. Implementação como foco principal** | A pergunta principal é como e porquê as partes de um programa mudam e quais os efeitos das estratégias. As variáveis de implementação são resultados ou determinantes. | Métodos mistos e estudos quase-experimentais sobre mudanças na prestação ou na aceitabilidade; estudos observacionais de adaptação, aprendizagem e expansão. |
+
+Segundo o guia, uma investigação é pesada em implementação quando a pergunta incide sobre a implementação, decorre em contexto real e pelo menos considera os factores que a afectam, mesmo que não teste estratégias nem meça variáveis de implementação (p. 32).
+
+O guia faz três observações sobre esta representação.
+
+**O contínuo não é unidireccional.** A vacina liofilizada contra a varíola, um produto da investigação básica, eliminou a necessidade de cadeia de frio e mudou a implementação da campanha. No sentido inverso, a descoberta no terreno de que os sais de reidratação oral podiam ser preparados no local por pessoal não especializado levou a investigação a desenvolver sais que não empedram (p. 32).
+
+**A figura é uma simplificação.** Os sistemas de saúde raramente recebem uma inovação de cada vez. A absorção de várias mudanças em simultâneo é mais desordenada do que o esquema sugere (p. 32).
+
+**Investigação de implementação não é monitorização.** A monitorização mede progressos ao longo do tempo sem procurar compreender o que os explica. É muitas vezes o ponto de partida da investigação de implementação, quando se usam métodos de investigação para ir além dela (p. 32).
+
+As duas representações complementam-se. As fases T1 a T4 descrevem a sequência do conhecimento, da descoberta à população. O contínuo do guia descreve até que ponto cada estudo trata a implementação como objecto. Os ensaios pragmáticos (posição 3) e os desenhos híbridos (posição 4) correspondem à zona de passagem entre a eficácia e a implementação.
+
+## Fronteiras com os campos vizinhos
+
+A ciência da implementação partilha métodos e objectos com vários campos. Mittman (2012) observa que, apesar das diferenças de origem e de ênfase, estes subcampos têm teorias, métodos e perguntas de investigação em comum (p. 403). O quadro seguinte distingue-os pela pergunta central de cada um.
+
+| Campo | Pergunta central | Relação com a ciência da implementação |
+|---|---|---|
+| **Investigação clínica** | A intervenção funciona, em condições óptimas (eficácia) ou reais (efectividade)? | Produz a evidência sobre a inovação. A ciência da implementação toma essa evidência como ponto de partida e pergunta como fazê-la chegar à prática. |
+| **Investigação em políticas e sistemas de saúde** | Como se organizam, financiam e governam os sistemas de saúde e como se formulam e executam as políticas? | Campo mais amplo, no qual o guia da OMS inclui a investigação de implementação (Peters et al., 2013, p. 27). |
+| **Investigação operacional** | Como melhorar o desempenho de um programa concreto, com os recursos existentes? | Muito próxima, sobretudo em saúde global. Remme et al. (2010) distinguem-na pela orientação para um programa específico e pela menor pretensão de generalização. |
+| **Monitorização e avaliação** | O programa está a executar o que foi planeado e a atingir as metas definidas? | Função de gestão, contínua e de rotina, baseada em indicadores definidos à partida. Fornece dados e perguntas à investigação de implementação, mas não procura explicar porque os resultados ocorrem (Peters et al., 2013, p. 20, 32 e 35). |
+| **Avaliação de programas** | Qual o mérito, o valor e o impacto deste programa? | Estudo pontual e aprofundado de um programa concreto, para decidir sobre a sua continuação, alteração ou expansão. A investigação de implementação procura conhecimento transferível sobre processos, estratégias e determinantes. |
+| **Melhoria da qualidade** | Como melhorar este processo, nesta unidade, agora? | Usa ciclos iterativos (planear-executar-estudar-agir) liderados pelas equipas locais (Peters et al., 2013, p. 36 e 48). Historicamente, o rótulo "investigação em melhoria da qualidade" designou trabalho hoje chamado investigação de implementação (Mittman, 2012, p. 402). A diferença está sobretudo no ponto de partida: a melhoria da qualidade parte de um défice de qualidade local e a ciência da implementação parte de uma inovação com evidência (p. 403). |
+| **Tradução do conhecimento** | Como sintetizar, trocar e aplicar o conhecimento entre quem o produz e quem o usa? | Termo abrangente, de origem canadiana. A definição dos Canadian Institutes of Health Research descreve um processo dinâmico e iterativo que inclui síntese, disseminação, troca e aplicação eticamente fundamentada do conhecimento (Colditz, 2012, p. 4; Rabin e Brownson, 2012, p. 28). Rabin e Brownson classificam os termos desta família em modelos lineares, relacionais e sistémicos (p. 27–29). |
+| **Investigação em serviços de saúde** | Como o acesso, a organização, o financiamento e a prestação de cuidados afectam a qualidade, o custo e os resultados? | Área em que, nos Estados Unidos, a investigação de disseminação e implementação está historicamente inserida (Brownson et al., 2012, prefácio, p. xii). |
+
+O guia da OMS acrescenta uma fronteira menos discutida, a do **conhecimento tácito**. Parte do saber necessário para implementar adquire-se pela experiência, pela observação e pela prática, e não pela investigação formal. As fronteiras entre os dois tipos de conhecimento sobrepõem-se, e o próprio conhecimento tácito dos gestores pode ser objecto de investigação (Peters et al., 2013, p. 24).
+
+### Monitorização e avaliação e investigação de implementação
+
+A confusão entre monitorização e avaliação (M&A) e investigação de implementação tem causas concretas. Ambas usam a linguagem de indicadores, cobertura e metas. Ambas recorrem muitas vezes aos mesmos dados de rotina, como os do sistema de informação sanitária. E, nos programas, são frequentemente realizadas pelas mesmas pessoas.
+
+O guia da OMS trata as duas como actividades distintas mas ligadas. A M&A que os gestores já fazem por rotina tem um papel importante na avaliação do desempenho e ajuda muitas vezes a definir as perguntas de investigação (Peters et al., 2013, p. 20). A monitorização é frequentemente o ponto de partida da investigação de implementação (p. 35). O critério de separação proposto pelo guia é este: a investigação de implementação começa quando se usam métodos de investigação para estudar questões que vão além da monitorização de rotina (p. 32). A monitorização mede o progresso ao longo do tempo, mas não procura necessariamente compreender o que o influencia (p. 32).
+
+O caso do Afeganistão ilustra a passagem de uma para a outra (p. 20–21). Uma grelha de indicadores equilibrada (*balanced scorecard*) foi criada para monitorizar anualmente o pacote básico de serviços de saúde nas 34 províncias. Os seus dados passaram depois a servir de base para testar novas estratégias de financiamento e de prestação de serviços. Os indicadores foram os mesmos. O que mudou foi a pergunta.
+
+| Dimensão | Monitorização | Avaliação (no âmbito da M&A) | Investigação de implementação |
+|---|---|---|---|
+| **Pergunta** | Está a acontecer o que foi planeado? | O programa atingiu os objectivos e com que eficiência? | Como e porquê a implementação resulta ou falha, e que estratégias a melhoram? |
+| **Periodicidade** | Contínua, de rotina | Periódica (intermédia, final) | Por projecto, com pergunta e desenho próprios |
+| **Referência** | Plano de trabalho e metas | Objectivos do programa. Critérios habituais: relevância, coerência, efectividade, eficiência, impacto e sustentabilidade (OCDE-CAD, 2019) | Teoria, modelo ou enquadramento explícito (por exemplo CFIR, RE-AIM/PRISM) |
+| **Dados** | Indicadores pré-definidos de insumos, actividades, produtos e cobertura | Indicadores e estudos específicos | Dados de rotina e dados recolhidos para o estudo, quantitativos, qualitativos ou mistos |
+| **Papel do contexto** | Raramente medido | Descrito como enquadramento | Objecto de estudo (determinantes) |
+| **Estratégias de implementação** | Executadas, não estudadas | Avaliadas no conjunto do programa | Especificadas, comparadas ou testadas |
+| **Destinatário** | Gestores do programa | Gestores, financiadores e decisores | Gestores e decisores, outros contextos e a comunidade científica |
+| **Alcance do conhecimento** | Aquele programa, naquele momento | Aquele programa | Transferível para outros contextos |
+
+Há um ponto de sobreposição que importa tornar explícito. Vários indicadores habituais de M&A coincidem com variáveis de resultado de implementação. A cobertura corresponde ao alcance (*reach*). A proporção de unidades sanitárias que oferecem o serviço corresponde à adopção ou à penetração. A proporção de consultas que seguem o protocolo corresponde à fidelidade (Peters et al., 2013, tabela 3, p. 30). O que transforma estes indicadores em resultados de implementação não é o indicador em si, mas o lugar que ocupa no estudo. Na investigação de implementação, o indicador está ligado a uma estratégia definida e a um modelo que explica como essa estratégia deveria produzir o efeito.
+
+Daqui decorre uma consequência prática. Um sistema de M&A bem desenhado pode servir de infra-estrutura de dados para a investigação de implementação, desde que, desde o início, se escolham indicadores que correspondam a resultados de implementação e se registem as estratégias utilizadas. O RE-AIM é um exemplo de enquadramento que serve as duas funções.
+
+## Características da investigação de implementação
+
+O guia da OMS resume os traços que distinguem a investigação de implementação.
+
+- **A pergunta determina o método.** Não existe um conjunto próprio de "métodos de investigação de implementação". A escolha do método depende da pergunta, e não o contrário (Peters et al., 2013, p. 10).
+- **Desenhos úteis.** Ensaios pragmáticos, ensaios híbridos de efectividade-implementação, estudos de melhoria da qualidade e investigação-acção participativa são especialmente úteis, porque captam o contexto ao longo do tempo e permitem ajustamentos iterativos (p. 10).
+- **Colaboração com implementadores.** A investigação é mais útil quando os implementadores participam na identificação, no desenho e na condução do estudo, em vez de serem apenas receptores passivos dos resultados (p. 9 e 35).
+- **Contexto como objecto.** Ao contrário de outras formas de investigação, a investigação de implementação não procura eliminar os factores contextuais. São precisamente esses factores que lhe interessam (p. 35).
+
+O guia propõe ainda oito perguntas para verificar se um estudo é de facto investigação de implementação e se tem qualidade (p. 10–11):
+
+1. A investigação responde a uma questão sobre implementação?
+2. Descreve com clareza o que está a ser implementado?
+3. Envolve uma estratégia de implementação, e esta é descrita e examinada?
+4. Decorre em contexto real, descrito com detalhe suficiente?
+5. Considera as variáveis de resultado de implementação?
+6. Considera o contexto e os factores que influenciam a implementação?
+7. Considera as mudanças ao longo do tempo e a complexidade do sistema?
+8. Identifica o público-alvo e o uso previsto dos resultados?
+
+A segunda pergunta liga este capítulo ao anterior. Sem uma definição clara da inovação, entendida como pacote de acções e não como elemento técnico isolado, não é possível fazer investigação de implementação.
+
+## Referências
+
+Balas EA, Boren SA. Managing clinical knowledge for health care improvement. *Yearb Med Inform*. 2000;(1):65–70.
+
+Bauer MS, Kirchner J. Implementation science: what is it and why should I care? *Psychiatry Res*. 2020;283:112376. <https://doi.org/10.1016/j.psychres.2019.04.025>
+
+Brownson RC, Colditz GA, Proctor EK, editores. *Dissemination and implementation research in health: translating science to practice*. Nova Iorque: Oxford University Press; 2012.
+
+Colditz GA. The promise and challenges of dissemination and implementation research. In: Brownson RC, Colditz GA, Proctor EK, editores. *Dissemination and implementation research in health: translating science to practice*. Nova Iorque: Oxford University Press; 2012. p. 3–22.
+
+Dearing JW, Kee KF. Historical roots of dissemination and implementation science. In: Brownson RC, Colditz GA, Proctor EK, editores. *Dissemination and implementation research in health: translating science to practice*. Nova Iorque: Oxford University Press; 2012. p. 55–71.
+
+Eccles MP, Mittman BS. Welcome to Implementation Science. *Implement Sci*. 2006;1:1. <https://doi.org/10.1186/1748-5908-1-1>
+
+Institute of Medicine. *Crossing the quality chasm: a new health system for the 21st century*. Washington, DC: National Academy Press; 2001.
+
+Mittman BS. Implementation science in health care. In: Brownson RC, Colditz GA, Proctor EK, editores. *Dissemination and implementation research in health: translating science to practice*. Nova Iorque: Oxford University Press; 2012. p. 400–418.
+
+Morris ZS, Wooding S, Grant J. The answer is 17 years, what is the question: understanding time lags in translational research. *J R Soc Med*. 2011;104(12):510–520. <https://doi.org/10.1258/jrsm.2011.110180>
+
+OECD/DAC Network on Development Evaluation. *Better criteria for better evaluation: revised evaluation criteria definitions and principles for use*. Paris: OECD; 2019.
+
+Organização Mundial da Saúde. *Bridging the "know–do" gap: meeting on knowledge translation in global health*. Genebra: OMS; 2006 (WHO/EIP/KMS/2006.2).
+
+Peters DH, Adam T, Alonge O, Agyepong IA, Tran N. Implementation research: what it is and how to do it. *BMJ*. 2013;347:f6753. <https://doi.org/10.1136/bmj.f6753>
+
+Peters DH, Tran NT, Adam T. *Implementation research in health: a practical guide*. Genebra: Alliance for Health Policy and Systems Research, Organização Mundial da Saúde; 2013. ISBN 978 92 4 150621 2.
+
+Rabin BA, Brownson RC. Developing the terminology for dissemination and implementation research. In: Brownson RC, Colditz GA, Proctor EK, editores. *Dissemination and implementation research in health: translating science to practice*. Nova Iorque: Oxford University Press; 2012. p. 23–51.
+
+Remme JHF, Adam T, Becerra-Posada F, et al. Defining research to improve health systems. *PLoS Med*. 2010;7(11):e1001000. <https://doi.org/10.1371/journal.pmed.1001000>

@@ -29,6 +29,7 @@ book:
     - part: "Ciência da Implementação"
       chapters:
         - inovacao.qmd
+        - ciencia-implementacao.qmd
     - part: "Enquadramentos de implementação"
       chapters:
         - reaim-prism-cfir-pen-angola.qmd
