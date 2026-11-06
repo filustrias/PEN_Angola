@@ -26,6 +26,9 @@ book:
       chapters:
         - panorama-literatura-pen.qmd
         - exploracao-guias-materiais.qmd
+    - part: "Ciência da Implementação"
+      chapters:
+        - inovacao.qmd
     - part: "Enquadramentos de implementação"
       chapters:
         - reaim-prism-cfir-pen-angola.qmd
