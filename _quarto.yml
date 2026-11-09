@@ -39,6 +39,7 @@ book:
     - part: "Aplicação ao piloto"
       chapters:
         - lacunas-de-cuidado-pen-angola.qmd
+        - guiao-unidades-piloto.qmd
 
 crossref:
   tbl-title: "Tabela"

@@ -1,0 +1,90 @@
+# Guião para a selecção e conhecimento das unidades piloto {#sec-guiao-unidades}
+
+::: {.chapter-subtitle}
+Implementação do WHO PEN e do PEN-Plus em Angola — Luanda e Icolo e Bengo
+:::
+
+Este guião apoia a conversa com as equipas provinciais e as visitas às unidades candidatas ao piloto. O WHO PEN será implementado em unidades de cuidados de saúde primários e o PEN-Plus numa unidade de referência ambulatória. O projecto deve sobrepor-se ao que já existe em cada unidade — gestão, supervisão, registo e programas em curso — e não criar estruturas paralelas.
+
+## Que unidades procuramos
+
+Para o piloto, convém procurar unidades de maior dimensão:
+
+- **Profissionais:** vários médicos, enfermeiros e técnicos, de modo que a consulta de DCNT não dependa de uma única pessoa.
+- **Salas:** mais de um gabinete, para que um possa ser reservado à consulta de DCNT em dias definidos, além de espaço para triagem, farmácia e arquivo.
+- **Movimento:** um volume de utentes com HTA e diabetes que permita acompanhar o efeito do pacote ao longo do ano.
+- **Energia e internet:** energia regular e algum sinal de internet no gabinete.
+- **Referência:** proximidade e boa ligação com a unidade de referência PEN-Plus.
+
+## Quem quer abraçar o projecto
+
+- Que director ou directora mostra interesse em DCNT e disponibilidade para acompanhar o processo?
+- Há algum médico ou enfermeiro que já se ocupa dos utentes crónicos por iniciativa própria?
+- Quem a equipa costuma ouvir e seguir quando há mudanças?
+- Que equipas já participaram com bom resultado noutros programas?
+- Há alguém que possa ter reservas ou dificultar o processo? O que o preocupa?
+
+## Perguntas sobre o funcionamento da unidade
+
+### Gestão e hierarquia
+
+- A quem responde o director da unidade no município e na província?
+- Quem decide sobre horários, escalas e distribuição do pessoal?
+- Quem decide sobre requisições de medicamentos e material?
+- Que programas já funcionam na unidade (PAV, malária, tuberculose, VIH, saúde materna)? Como estão organizados?
+- Algum desses programas tem uma organização que possamos aproveitar para as DCNT, como dias próprios, registo ou supervisão?
+
+### Supervisão
+
+- Quem supervisiona as actividades da unidade? Com que frequência?
+- A supervisão é feita pelo município, pela província ou por cada programa?
+- Que instrumentos de supervisão usam?
+- Há reuniões regulares da equipa? Quando e com quem?
+
+### Horário e equipa
+
+- Em que dias e horários a unidade funciona?
+- Quantas consultas se fazem por dia?
+- Quantos médicos, enfermeiros, técnicos e agentes de saúde trabalham aqui? Alguém teve formação em DCNT?
+- Quem prescreve e quem renova as receitas?
+
+### Consulta
+
+- O utente com HTA ou diabetes tem consulta marcada ou vem quando pode?
+- Onde se mede a PA e o peso? Que aparelhos usam? Funcionam?
+- Há glucómetro, tiras e lancetas dentro do prazo?
+
+### Laboratório
+
+- Que exames se fazem aqui: glicemia, HbA1c, creatinina, colesterol, urina?
+- Em que dias se fazem as colheitas? Fazem colheitas no domicílio?
+- Os exames que não se fazem aqui são enviados para onde? Quanto tempo demora o resultado?
+
+### Medicamentos
+
+- Que medicamentos para a HTA e a diabetes temos aqui hoje? Quais faltaram nos últimos meses?
+- De onde vem o abastecimento e de quanto em quanto tempo?
+- Quando falta na unidade, onde o utente vai buscar? Paga?
+- Há frigorífico para a insulina?
+
+### Dados e estatística
+
+- Quem faz a estatística da unidade?
+- Que dados se recolhem hoje e em que livros ou fichas?
+- Para onde se enviam os relatórios, com que periodicidade e em que formato?
+- A unidade lança dados directamente no DHIS2 ou envia para o município?
+- Algum indicador de HTA ou diabetes já é reportado hoje?
+- Alguém usa estes dados na própria unidade, por exemplo em reuniões ou para planear?
+- Quem verifica a qualidade dos dados?
+
+### Tecnologia e energia
+
+- Há computadores ou smartphones? São da unidade ou pessoais?
+- Há sinal de internet dentro do gabinete? De que operadora?
+- A energia falha muitas vezes? Há gerador ou painel solar?
+
+### Registo e referência
+
+- Como se regista hoje o utente crónico: em livro, em processo em papel ou no DHIS2?
+- Para onde se referenciam os casos complicados?
+- O utente volta com informação da unidade de referência?
