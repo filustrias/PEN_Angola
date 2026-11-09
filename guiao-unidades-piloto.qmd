@@ -1,10 +1,8 @@
-# Guião para a selecção e conhecimento das unidades piloto {#sec-guiao-unidades}
+# Seleção e conhecimento das unidades piloto para o WHO PEN e PEN Plus {#sec-guiao-unidades}
 
 ::: {.chapter-subtitle}
 Implementação do WHO PEN e do PEN-Plus em Angola — Luanda e Icolo e Bengo
 :::
-
-Este guião apoia a conversa com as equipas provinciais e as visitas às unidades candidatas ao piloto. O WHO PEN será implementado em unidades de cuidados de saúde primários e o PEN-Plus numa unidade de referência ambulatória. O projecto deve sobrepor-se ao que já existe em cada unidade — gestão, supervisão, registo e programas em curso — e não criar estruturas paralelas.
 
 ## Que unidades procuramos
 
